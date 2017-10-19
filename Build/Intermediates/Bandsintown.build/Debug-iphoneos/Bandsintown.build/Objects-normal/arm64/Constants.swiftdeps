@@ -84,8 +84,9 @@ depends-member:
 - ["So8NSStringC", "init"]
 - !private ["s7NumericP", "hashValue"]
 - ["s26RangeReplaceableCollectionP", "init"]
-- ["11Bandsintown11RequestTypeO", "RT_ArtistDetail"]
-- ["11Bandsintown11RequestTypeO", "RT_ArtistSearch"]
+- ["11Bandsintown11RequestTypeO", "RT_ARTIST_DETAIL"]
+- ["11Bandsintown11RequestTypeO", "RT_ARTIST_SEARCH"]
+- ["11Bandsintown11RequestTypeO", "RT_IMAGE_LARGE"]
 - ["11Bandsintown11RequestTypeO", "RT_IMAGE_THUMB"]
 - ["11Bandsintown11RequestTypeO", "__derived_enum_equals"]
 - ["11Bandsintown11RequestTypeO", "deinit"]
@@ -219,4 +220,4 @@ depends-external:
 - "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
 - "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
-interface-hash: "3d139e2dd02a64a0c3c6ca778452103c"
+interface-hash: "c458b1f6c2bfb9834e407d1ff8a551e9"

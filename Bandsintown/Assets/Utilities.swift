@@ -18,18 +18,24 @@ class Utilities {
         
         var formattedURL = ""
         
-        if requestType == .RT_ArtistSearch {
+        if requestType == .RT_ARTIST_SEARCH {
             formattedURL += Constants.BASE_URL_ARTIST_SEARCH
             formattedURL += input
         }
             
-        else if requestType == .RT_ArtistDetail {
+        else if requestType == .RT_ARTIST_DETAIL {
             formattedURL += Constants.BASE_URL_ARTIST_DETAIL_PREFIX
             formattedURL += input
             formattedURL += Constants.BASE_URL_ARTIST_DETAIL_SUFFIX
         }
         
         else if requestType == .RT_IMAGE_THUMB {
+            formattedURL += Constants.BASE_URL_IMAGE_LARGE
+            formattedURL += input
+            formattedURL += Constants.DEFAULT_IMG_TYPE
+        }
+        
+        else if requestType == .RT_IMAGE_LARGE {
             formattedURL += Constants.BASE_URL_IMAGE_LARGE
             formattedURL += input
             formattedURL += Constants.DEFAULT_IMG_TYPE

@@ -34,11 +34,11 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-ETQ-55-tyk.nib</key>
 		<data>
-		FySstiZ0MasRg8fv4nmb2migcLw=
+		+AKgJCbvXT7HHQvoUGoNyUsrrrY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/DetailVC.nib</key>
 		<data>
-		3azHyydk3I2EZENc+SQ/9iQAFpk=
+		aGV4ozcLgqCKym8aTPZ9lP5RmYI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -46,15 +46,15 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-C9Q-Gt-eWQ.nib</key>
 		<data>
-		/oOiM/wyiPGXj6LZ18IANKbPNKM=
+		tT4dbeknE0mKTY0Dr4ikFutaXDk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/kPq-xB-iT3-view-bQW-vc-neF.nib</key>
 		<data>
-		2NRXiBEhRKxM5aI7+SyiUQG/VHA=
+		bxin8dCSrIN9BkTlSP/hZpXTZWI=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		BOmMClDS7Qa0OpIwxQdbTyJl2AE=
+		H+5DLDRBCyJjwAUKJDtsGyJO1q4=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/Kingfisher.framework/Kingfisher</key>
 		<data>
-		Xs22lIkUIVm3ogx5E8Fqn34S2vE=
+		8pptZzEpT8s7j39m4JJQNswjT24=
 		</data>
 		<key>Frameworks/Kingfisher.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Frameworks/SwiftyJSON.framework/SwiftyJSON</key>
 		<data>
-		2Hcja224q/VhG7OTQcwQeHOZ7pQ=
+		9VIwzaYx/ZfcUoHYBTJMXzfQBj8=
 		</data>
 		<key>Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -248,22 +248,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FySstiZ0MasRg8fv4nmb2migcLw=
+			+AKgJCbvXT7HHQvoUGoNyUsrrrY=
 			</data>
 			<key>hash2</key>
 			<data>
-			RvsZljbSVfhVfESE7yI+A7tcp0/q6iqcIo6Sl7vcZQ0=
+			mAqERCB6bGSIdUbonsqN9rI1n5hd7Z/YtTNRuBpuN7I=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/DetailVC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3azHyydk3I2EZENc+SQ/9iQAFpk=
+			aGV4ozcLgqCKym8aTPZ9lP5RmYI=
 			</data>
 			<key>hash2</key>
 			<data>
-			HkhmbETQGnSZzebGgxDRGPFD1mA8MS+hpNHXVStmrb4=
+			cQ25NP+/1vWEI5q+Hb15akoyZRDLjDnHQKQL/5c4bSI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -281,33 +281,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/oOiM/wyiPGXj6LZ18IANKbPNKM=
+			tT4dbeknE0mKTY0Dr4ikFutaXDk=
 			</data>
 			<key>hash2</key>
 			<data>
-			k5+CU6XECInPPh7pZYcbEtV7sc8c5Xe/YflJJYISbtY=
+			7r5PzOgkMONO3tybxpThihVidpIRN7XX/Kk5LvGEybA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/kPq-xB-iT3-view-bQW-vc-neF.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2NRXiBEhRKxM5aI7+SyiUQG/VHA=
+			bxin8dCSrIN9BkTlSP/hZpXTZWI=
 			</data>
 			<key>hash2</key>
 			<data>
-			kMjE6+j4m1mw2Q/FtYiGfr/VXPN1Ld1fxrgUMFFZYoQ=
+			ar6m+uMYoc8UIL4Vq8A2oJaQa7jl3O0RxaRq25YYqeA=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BOmMClDS7Qa0OpIwxQdbTyJl2AE=
+			H+5DLDRBCyJjwAUKJDtsGyJO1q4=
 			</data>
 			<key>hash2</key>
 			<data>
-			R4D9NqYyPBaJDGpoVDj+9b9KCO9hR9y22/c1jISF3cI=
+			fwWCnEhxJUXsivdriqIS1Ec4qQmeU5aQW70sCz6rnN0=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
@@ -347,11 +347,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xs22lIkUIVm3ogx5E8Fqn34S2vE=
+			8pptZzEpT8s7j39m4JJQNswjT24=
 			</data>
 			<key>hash2</key>
 			<data>
-			NiK7IhhW6ILiF8sb4FSdTazoor1XIqOsOzzruhSVCBM=
+			DFGRi+bD7Y/JCYO39tt5tFSlrpKLfk/LsZcPF69ukLo=
 			</data>
 		</dict>
 		<key>Frameworks/Kingfisher.framework/_CodeSignature/CodeResources</key>
@@ -380,11 +380,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2Hcja224q/VhG7OTQcwQeHOZ7pQ=
+			9VIwzaYx/ZfcUoHYBTJMXzfQBj8=
 			</data>
 			<key>hash2</key>
 			<data>
-			u9rODV/i1FWTldAotiUzxtG+rNvyx3htgnHvwXirIPk=
+			kKmANJuzYnmadeRBnoipF2LBfxStDHym2hu1bC63ZUQ=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources</key>

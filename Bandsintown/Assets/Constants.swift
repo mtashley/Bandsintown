@@ -17,9 +17,10 @@ enum ArtistFavoriteState {
 }
 
 enum RequestType {
-    case RT_ArtistSearch
-    case RT_ArtistDetail
+    case RT_ARTIST_SEARCH
+    case RT_ARTIST_DETAIL
     case RT_IMAGE_THUMB
+    case RT_IMAGE_LARGE
 }
 
 struct Constants {

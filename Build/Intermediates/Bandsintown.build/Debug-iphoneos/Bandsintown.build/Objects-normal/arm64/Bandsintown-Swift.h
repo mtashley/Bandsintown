@@ -208,6 +208,7 @@ SWIFT_CLASS("_TtC11Bandsintown6Artist")
 @property (nonatomic, copy) NSString * _Nonnull name;
 @property (nonatomic) NSInteger media_id;
 @property (nonatomic, copy) NSString * _Nonnull thumb_url;
+@property (nonatomic, copy) NSString * _Nonnull image_url;
 @property (nonatomic) NSInteger tracker_count;
 @property (nonatomic) NSInteger upcoming_event_count;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;

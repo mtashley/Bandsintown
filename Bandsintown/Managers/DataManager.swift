@@ -42,7 +42,7 @@ import Kingfisher
         delegate.presentArtistDetails!(with: artist)
         
         // Allow Kingfisher (Swift) to load cached images into Objective-C class (DetailVC).
-        let url = URL(string: artist.thumb_url)
+        let url = URL(string: artist.image_url)
         (delegate as! DetailVC).img_image.kf.setImage(with: url)
     }
     

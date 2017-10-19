@@ -42,7 +42,7 @@ class NetworkManager {
     // MARK: Public - API Request Wrappers
         func requestArtists(from searchString: String) {
     
-        let url = Utilities.cleanURL(from: searchString, requestType: .RT_ArtistSearch)
+        let url = Utilities.cleanURL(from: searchString, requestType: .RT_ARTIST_SEARCH)
         
         let completionHandler = { jsonObject in
             self.dataManager.loadSearchResults(jsonObject)
@@ -53,7 +53,7 @@ class NetworkManager {
     
     func requestArtistDetails(from artistName: String) {
         
-        let url = Utilities.cleanURL(from: artistName, requestType: .RT_ArtistDetail)
+        let url = Utilities.cleanURL(from: artistName, requestType: .RT_ARTIST_DETAIL)
         
         let completionHandler = { jsonObject in
             self.dataManager.loadArtistDetails(jsonObject)

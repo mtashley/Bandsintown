@@ -1,0 +1,87 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Index"
+provides-nominal:
+- "6Outlaw5IndexP"
+- "Si"
+provides-member:
+- ["6Outlaw5IndexP", ""]
+- ["Si", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Index"
+- "Int"
+depends-member:
+- ["s13BinaryIntegerP", "outlawIndex"]
+- ["s7CVarArgP", "outlawIndex"]
+- ["s10ComparableP", "outlawIndex"]
+- ["s29CustomPlaygroundQuickLookableP", "outlawIndex"]
+- ["s17CustomReflectableP", "outlawIndex"]
+- ["s23CustomStringConvertibleP", "outlawIndex"]
+- ["s9DecodableP", "outlawIndex"]
+- ["s9EncodableP", "outlawIndex"]
+- ["s9EquatableP", "outlawIndex"]
+- ["s27ExpressibleByIntegerLiteralP", "outlawIndex"]
+- ["s17FixedWidthIntegerP", "outlawIndex"]
+- ["s8HashableP", "outlawIndex"]
+- ["6Outlaw5IndexP", "Int"]
+- ["6Outlaw5IndexP", "outlawIndex"]
+- ["6Outlaw5IndexP", ""]
+- ["Si", "Int"]
+- ["Si", "deinit"]
+- ["Si", "outlawIndex"]
+- ["s25LosslessStringConvertibleP", "outlawIndex"]
+- ["s10MirrorPathP", "outlawIndex"]
+- ["s7NumericP", "outlawIndex"]
+- ["s13SignedIntegerP", "outlawIndex"]
+- ["s13SignedNumericP", "outlawIndex"]
+- ["s10StrideableP", "outlawIndex"]
+- ["6Outlaw5ValueP", "outlawIndex"]
+- ["s18_BitwiseOperationsP", "outlawIndex"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "outlawIndex"]
+- ["s21_ObjectiveCBridgeableP", "outlawIndex"]
+- ["s11_StrideableP", "outlawIndex"]
+depends-nominal:
+- "s13BinaryIntegerP"
+- "s7CVarArgP"
+- "s10ComparableP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s17FixedWidthIntegerP"
+- "s8HashableP"
+- "6Outlaw5IndexP"
+- "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "s7NumericP"
+- "s13SignedIntegerP"
+- "s13SignedNumericP"
+- "s10StrideableP"
+- "6Outlaw5ValueP"
+- "s18_BitwiseOperationsP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s21_ObjectiveCBridgeableP"
+- "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Target Support Files/Outlaw/Outlaw-umbrella.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Pods.build/Debug-iphonesimulator/Outlaw.build/unextended-module.modulemap"
+interface-hash: "817e5babaa217f827cadbdcfe3bb5854"

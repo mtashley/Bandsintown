@@ -1,0 +1,395 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "Si"
+- "s4Int8V"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+provides-member:
+- ["Si", ""]
+- ["s4Int8V", ""]
+- ["s5Int16V", ""]
+- ["s5Int32V", ""]
+- ["s5Int64V", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- !private "NSNumber"
+- !private "OutlawError"
+- !private "UInt"
+- !private "UInt16"
+- !private "UInt32"
+- !private "UInt64"
+- !private "UInt8"
+- "Value"
+- !private "type"
+depends-member:
+- !private ["s13BinaryIntegerP", "OutlawError"]
+- ["s13BinaryIntegerP", "ValueType"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["s13BinaryIntegerP", "type"]
+- ["s13BinaryIntegerP", "value"]
+- !private ["s7CVarArgP", "OutlawError"]
+- ["s7CVarArgP", "ValueType"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "int16Value"]
+- !private ["s7CVarArgP", "int32Value"]
+- !private ["s7CVarArgP", "int64Value"]
+- !private ["s7CVarArgP", "int8Value"]
+- !private ["s7CVarArgP", "intValue"]
+- !private ["s7CVarArgP", "type"]
+- ["s7CVarArgP", "value"]
+- !private ["s10ComparableP", "OutlawError"]
+- ["s10ComparableP", "ValueType"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "type"]
+- ["s10ComparableP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "int16Value"]
+- !private ["s28CustomDebugStringConvertibleP", "int32Value"]
+- !private ["s28CustomDebugStringConvertibleP", "int64Value"]
+- !private ["s28CustomDebugStringConvertibleP", "int8Value"]
+- !private ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "OutlawError"]
+- ["s29CustomPlaygroundQuickLookableP", "ValueType"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "type"]
+- ["s29CustomPlaygroundQuickLookableP", "value"]
+- !private ["s17CustomReflectableP", "OutlawError"]
+- ["s17CustomReflectableP", "ValueType"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "type"]
+- ["s17CustomReflectableP", "value"]
+- !private ["s23CustomStringConvertibleP", "OutlawError"]
+- ["s23CustomStringConvertibleP", "ValueType"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "int16Value"]
+- !private ["s23CustomStringConvertibleP", "int32Value"]
+- !private ["s23CustomStringConvertibleP", "int64Value"]
+- !private ["s23CustomStringConvertibleP", "int8Value"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "typeMismatch"]
+- ["s23CustomStringConvertibleP", "value"]
+- !private ["s9DecodableP", "OutlawError"]
+- ["s9DecodableP", "ValueType"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "type"]
+- ["s9DecodableP", "value"]
+- !private ["s9EncodableP", "OutlawError"]
+- ["s9EncodableP", "ValueType"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "type"]
+- ["s9EncodableP", "value"]
+- !private ["s9EquatableP", "OutlawError"]
+- ["s9EquatableP", "ValueType"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "int16Value"]
+- !private ["s9EquatableP", "int32Value"]
+- !private ["s9EquatableP", "int64Value"]
+- !private ["s9EquatableP", "int8Value"]
+- !private ["s9EquatableP", "intValue"]
+- !private ["s9EquatableP", "type"]
+- ["s9EquatableP", "value"]
+- !private ["s5ErrorP", "typeMismatch"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int16Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int32Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int64Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int8Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "intValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "int16Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "int32Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "int64Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "int8Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "OutlawError"]
+- ["s27ExpressibleByIntegerLiteralP", "ValueType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int16Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int32Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int64Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int8Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "type"]
+- ["s27ExpressibleByIntegerLiteralP", "value"]
+- !private ["s17FixedWidthIntegerP", "OutlawError"]
+- ["s17FixedWidthIntegerP", "ValueType"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "type"]
+- ["s17FixedWidthIntegerP", "value"]
+- !private ["s8HashableP", "OutlawError"]
+- ["s8HashableP", "ValueType"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "int16Value"]
+- !private ["s8HashableP", "int32Value"]
+- !private ["s8HashableP", "int64Value"]
+- !private ["s8HashableP", "int8Value"]
+- !private ["s8HashableP", "intValue"]
+- !private ["s8HashableP", "type"]
+- ["s8HashableP", "value"]
+- !private ["6Outlaw5IndexP", "OutlawError"]
+- ["6Outlaw5IndexP", "ValueType"]
+- !private ["6Outlaw5IndexP", "init"]
+- !private ["6Outlaw5IndexP", "type"]
+- ["6Outlaw5IndexP", "value"]
+- ["Si", "Int"]
+- !private ["Si", "Int16"]
+- !private ["Si", "Int32"]
+- !private ["Si", "Int64"]
+- !private ["Si", "Int8"]
+- !private ["Si", "NSNumber"]
+- !private ["Si", "OutlawError"]
+- !private ["Si", "UInt"]
+- !private ["Si", "UInt16"]
+- !private ["Si", "UInt32"]
+- !private ["Si", "UInt64"]
+- !private ["Si", "UInt8"]
+- ["Si", "ValueType"]
+- ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["Si", "type"]
+- ["Si", "value"]
+- !private ["s5Int16V", "Int"]
+- ["s5Int16V", "Int16"]
+- !private ["s5Int16V", "Int32"]
+- !private ["s5Int16V", "Int64"]
+- !private ["s5Int16V", "Int8"]
+- !private ["s5Int16V", "NSNumber"]
+- !private ["s5Int16V", "OutlawError"]
+- !private ["s5Int16V", "UInt"]
+- !private ["s5Int16V", "UInt16"]
+- !private ["s5Int16V", "UInt32"]
+- !private ["s5Int16V", "UInt64"]
+- !private ["s5Int16V", "UInt8"]
+- ["s5Int16V", "ValueType"]
+- ["s5Int16V", "deinit"]
+- !private ["s5Int16V", "init"]
+- !private ["s5Int16V", "type"]
+- ["s5Int16V", "value"]
+- !private ["s5Int32V", "Int"]
+- !private ["s5Int32V", "Int16"]
+- ["s5Int32V", "Int32"]
+- !private ["s5Int32V", "Int64"]
+- !private ["s5Int32V", "Int8"]
+- !private ["s5Int32V", "NSNumber"]
+- !private ["s5Int32V", "OutlawError"]
+- !private ["s5Int32V", "UInt"]
+- !private ["s5Int32V", "UInt16"]
+- !private ["s5Int32V", "UInt32"]
+- !private ["s5Int32V", "UInt64"]
+- !private ["s5Int32V", "UInt8"]
+- ["s5Int32V", "ValueType"]
+- ["s5Int32V", "deinit"]
+- !private ["s5Int32V", "init"]
+- !private ["s5Int32V", "type"]
+- ["s5Int32V", "value"]
+- !private ["s5Int64V", "Int"]
+- !private ["s5Int64V", "Int16"]
+- !private ["s5Int64V", "Int32"]
+- ["s5Int64V", "Int64"]
+- !private ["s5Int64V", "Int8"]
+- !private ["s5Int64V", "NSNumber"]
+- !private ["s5Int64V", "OutlawError"]
+- !private ["s5Int64V", "UInt"]
+- !private ["s5Int64V", "UInt16"]
+- !private ["s5Int64V", "UInt32"]
+- !private ["s5Int64V", "UInt64"]
+- !private ["s5Int64V", "UInt8"]
+- ["s5Int64V", "ValueType"]
+- ["s5Int64V", "deinit"]
+- !private ["s5Int64V", "init"]
+- !private ["s5Int64V", "type"]
+- ["s5Int64V", "value"]
+- !private ["s4Int8V", "Int"]
+- !private ["s4Int8V", "Int16"]
+- !private ["s4Int8V", "Int32"]
+- !private ["s4Int8V", "Int64"]
+- ["s4Int8V", "Int8"]
+- !private ["s4Int8V", "NSNumber"]
+- !private ["s4Int8V", "OutlawError"]
+- !private ["s4Int8V", "UInt"]
+- !private ["s4Int8V", "UInt16"]
+- !private ["s4Int8V", "UInt32"]
+- !private ["s4Int8V", "UInt64"]
+- !private ["s4Int8V", "UInt8"]
+- ["s4Int8V", "ValueType"]
+- ["s4Int8V", "deinit"]
+- !private ["s4Int8V", "init"]
+- !private ["s4Int8V", "type"]
+- ["s4Int8V", "value"]
+- !private ["s25LosslessStringConvertibleP", "OutlawError"]
+- ["s25LosslessStringConvertibleP", "ValueType"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "type"]
+- ["s25LosslessStringConvertibleP", "value"]
+- !private ["s10MirrorPathP", "OutlawError"]
+- ["s10MirrorPathP", "ValueType"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "type"]
+- ["s10MirrorPathP", "value"]
+- !private ["So8NSCodingP", "int16Value"]
+- !private ["So8NSCodingP", "int32Value"]
+- !private ["So8NSCodingP", "int64Value"]
+- !private ["So8NSCodingP", "int8Value"]
+- !private ["So8NSCodingP", "intValue"]
+- !private ["So9NSCopyingP", "int16Value"]
+- !private ["So9NSCopyingP", "int32Value"]
+- !private ["So9NSCopyingP", "int64Value"]
+- !private ["So9NSCopyingP", "int8Value"]
+- !private ["So9NSCopyingP", "intValue"]
+- !private ["So8NSNumberC", "int16Value"]
+- !private ["So8NSNumberC", "int32Value"]
+- !private ["So8NSNumberC", "int64Value"]
+- !private ["So8NSNumberC", "int8Value"]
+- !private ["So8NSNumberC", "intValue"]
+- !private ["So8NSObjectC", "int16Value"]
+- !private ["So8NSObjectC", "int32Value"]
+- !private ["So8NSObjectC", "int64Value"]
+- !private ["So8NSObjectC", "int8Value"]
+- !private ["So8NSObjectC", "intValue"]
+- !private ["So16NSObjectProtocolP", "int16Value"]
+- !private ["So16NSObjectProtocolP", "int32Value"]
+- !private ["So16NSObjectProtocolP", "int64Value"]
+- !private ["So16NSObjectProtocolP", "int8Value"]
+- !private ["So16NSObjectProtocolP", "intValue"]
+- !private ["So14NSSecureCodingP", "int16Value"]
+- !private ["So14NSSecureCodingP", "int32Value"]
+- !private ["So14NSSecureCodingP", "int64Value"]
+- !private ["So14NSSecureCodingP", "int8Value"]
+- !private ["So14NSSecureCodingP", "intValue"]
+- !private ["So7NSValueC", "int16Value"]
+- !private ["So7NSValueC", "int32Value"]
+- !private ["So7NSValueC", "int64Value"]
+- !private ["So7NSValueC", "int8Value"]
+- !private ["So7NSValueC", "intValue"]
+- !private ["s7NumericP", "OutlawError"]
+- ["s7NumericP", "ValueType"]
+- !private ["s7NumericP", "init"]
+- !private ["s7NumericP", "type"]
+- ["s7NumericP", "value"]
+- !private ["6Outlaw0A5ErrorO", "deinit"]
+- !private ["6Outlaw0A5ErrorO", "typeMismatch"]
+- !private ["s13SignedIntegerP", "OutlawError"]
+- ["s13SignedIntegerP", "ValueType"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedIntegerP", "type"]
+- ["s13SignedIntegerP", "value"]
+- !private ["s13SignedNumericP", "OutlawError"]
+- ["s13SignedNumericP", "ValueType"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "type"]
+- ["s13SignedNumericP", "value"]
+- !private ["s10StrideableP", "OutlawError"]
+- ["s10StrideableP", "ValueType"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "type"]
+- ["s10StrideableP", "value"]
+- !private ["6Outlaw5ValueP", "OutlawError"]
+- ["6Outlaw5ValueP", "ValueType"]
+- !private ["6Outlaw5ValueP", "init"]
+- !private ["6Outlaw5ValueP", "type"]
+- ["6Outlaw5ValueP", "value"]
+- ["6Outlaw5ValueP", ""]
+- !private ["s18_BitwiseOperationsP", "OutlawError"]
+- ["s18_BitwiseOperationsP", "ValueType"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s18_BitwiseOperationsP", "type"]
+- ["s18_BitwiseOperationsP", "value"]
+- !private ["s15_CVarArgAlignedP", "OutlawError"]
+- ["s15_CVarArgAlignedP", "ValueType"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "type"]
+- ["s15_CVarArgAlignedP", "value"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "OutlawError"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "ValueType"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "type"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "int16Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "int32Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "int64Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "int8Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "intValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "int16Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "int32Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "int64Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "int8Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intValue"]
+- !private ["s21_ObjectiveCBridgeableP", "OutlawError"]
+- ["s21_ObjectiveCBridgeableP", "ValueType"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "type"]
+- ["s21_ObjectiveCBridgeableP", "value"]
+- !private ["s11_StrideableP", "OutlawError"]
+- ["s11_StrideableP", "ValueType"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s11_StrideableP", "type"]
+- ["s11_StrideableP", "value"]
+depends-nominal:
+- "s13BinaryIntegerP"
+- "s7CVarArgP"
+- "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s17FixedWidthIntegerP"
+- "s8HashableP"
+- "6Outlaw5IndexP"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSNumberC"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- "s7NumericP"
+- !private "6Outlaw0A5ErrorO"
+- "s13SignedIntegerP"
+- "s13SignedNumericP"
+- "s10StrideableP"
+- "6Outlaw5ValueP"
+- "s18_BitwiseOperationsP"
+- "s15_CVarArgAlignedP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Target Support Files/Outlaw/Outlaw-umbrella.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Pods.build/Debug-iphonesimulator/Outlaw.build/unextended-module.modulemap"
+interface-hash: "c68d7edadc680e952e055af19d7abbcb"

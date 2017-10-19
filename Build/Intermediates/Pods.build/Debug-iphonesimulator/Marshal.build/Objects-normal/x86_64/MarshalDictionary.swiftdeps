@@ -1,0 +1,227 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MarshalDictionary"
+provides-nominal:
+- "s10DictionaryV"
+- "So12NSDictionaryC"
+provides-member:
+- ["s10DictionaryV", ""]
+- ["So12NSDictionaryC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CastingPrecedence"
+- "Dictionary"
+- "KeyType"
+- "MarshalDictionary"
+- !private "MarshalError"
+- "MarshaledObject"
+- "NSDictionary"
+- !private "NSNull"
+- "String"
+- "ValueType"
+depends-member:
+- !private ["s7CVarArgP", "MarshalError"]
+- ["s7CVarArgP", "Value"]
+- ["s7CVarArgP", "any"]
+- ["s7CVarArgP", "optionalAny"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "value"]
+- ["s10CollectionP", "any"]
+- ["s10CollectionP", "optionalAny"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "MarshalError"]
+- ["s28CustomDebugStringConvertibleP", "Value"]
+- ["s28CustomDebugStringConvertibleP", "any"]
+- ["s28CustomDebugStringConvertibleP", "optionalAny"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s17CustomReflectableP", "MarshalError"]
+- ["s17CustomReflectableP", "Value"]
+- ["s17CustomReflectableP", "any"]
+- ["s17CustomReflectableP", "optionalAny"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s17CustomReflectableP", "value"]
+- !private ["s23CustomStringConvertibleP", "MarshalError"]
+- ["s23CustomStringConvertibleP", "Value"]
+- ["s23CustomStringConvertibleP", "any"]
+- !private ["s23CustomStringConvertibleP", "keyNotFound"]
+- !private ["s23CustomStringConvertibleP", "nullValue"]
+- ["s23CustomStringConvertibleP", "optionalAny"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "value"]
+- ["s9DecodableP", "any"]
+- ["s9DecodableP", "optionalAny"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "Key"]
+- ["s10DictionaryV", "KeyType"]
+- ["s10DictionaryV", "any"]
+- ["s10DictionaryV", "deinit"]
+- ["s10DictionaryV", "optionalAny"]
+- !private ["s10DictionaryV", "subscript"]
+- ["s9EncodableP", "any"]
+- ["s9EncodableP", "optionalAny"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "MarshalError"]
+- ["s9EquatableP", "Value"]
+- ["s9EquatableP", "any"]
+- ["s9EquatableP", "optionalAny"]
+- !private ["s9EquatableP", "subscript"]
+- ["s9EquatableP", "value"]
+- !private ["s5ErrorP", "keyNotFound"]
+- !private ["s5ErrorP", "nullValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "MarshalError"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "any"]
+- ["s30ExpressibleByDictionaryLiteralP", "optionalAny"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s30ExpressibleByDictionaryLiteralP", "value"]
+- !private ["s8HashableP", "MarshalError"]
+- ["s8HashableP", "Value"]
+- ["s8HashableP", "any"]
+- ["s8HashableP", "optionalAny"]
+- !private ["s8HashableP", "subscript"]
+- ["s8HashableP", "value"]
+- ["7Marshal18JSONCollectionTypeP", "any"]
+- ["7Marshal18JSONCollectionTypeP", "optionalAny"]
+- !private ["7Marshal18JSONCollectionTypeP", "subscript"]
+- !private ["7Marshal7KeyTypeP", "stringValue"]
+- !private ["7Marshal0A5ErrorO", "deinit"]
+- !private ["7Marshal0A5ErrorO", "keyNotFound"]
+- !private ["7Marshal0A5ErrorO", "nullValue"]
+- !private ["7Marshal15MarshaledObjectP", "MarshalError"]
+- ["7Marshal15MarshaledObjectP", "Value"]
+- ["7Marshal15MarshaledObjectP", "any"]
+- ["7Marshal15MarshaledObjectP", "optionalAny"]
+- !private ["7Marshal15MarshaledObjectP", "subscript"]
+- ["7Marshal15MarshaledObjectP", "value"]
+- ["7Marshal15MarshaledObjectP", ""]
+- !private ["So8NSCodingP", "MarshalError"]
+- ["So8NSCodingP", "Value"]
+- ["So8NSCodingP", "any"]
+- ["So8NSCodingP", "optionalAny"]
+- !private ["So8NSCodingP", "subscript"]
+- ["So8NSCodingP", "value"]
+- !private ["So9NSCopyingP", "MarshalError"]
+- ["So9NSCopyingP", "Value"]
+- ["So9NSCopyingP", "any"]
+- ["So9NSCopyingP", "optionalAny"]
+- !private ["So9NSCopyingP", "subscript"]
+- ["So9NSCopyingP", "value"]
+- ["So12NSDictionaryC", "KeyType"]
+- !private ["So12NSDictionaryC", "MarshalError"]
+- !private ["So12NSDictionaryC", "NSNull"]
+- ["So12NSDictionaryC", "Value"]
+- ["So12NSDictionaryC", "any"]
+- ["So12NSDictionaryC", "deinit"]
+- ["So12NSDictionaryC", "optionalAny"]
+- !private ["So12NSDictionaryC", "subscript"]
+- ["So12NSDictionaryC", "value"]
+- !private ["So17NSFastEnumerationP", "MarshalError"]
+- ["So17NSFastEnumerationP", "Value"]
+- ["So17NSFastEnumerationP", "any"]
+- ["So17NSFastEnumerationP", "optionalAny"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- ["So17NSFastEnumerationP", "value"]
+- !private ["So16NSMutableCopyingP", "MarshalError"]
+- ["So16NSMutableCopyingP", "Value"]
+- ["So16NSMutableCopyingP", "any"]
+- ["So16NSMutableCopyingP", "optionalAny"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- ["So16NSMutableCopyingP", "value"]
+- ["So8NSObjectC", "KeyType"]
+- !private ["So8NSObjectC", "MarshalError"]
+- !private ["So8NSObjectC", "NSNull"]
+- ["So8NSObjectC", "Value"]
+- ["So8NSObjectC", "any"]
+- ["So8NSObjectC", "optionalAny"]
+- !private ["So8NSObjectC", "subscript"]
+- ["So8NSObjectC", "value"]
+- !private ["So16NSObjectProtocolP", "MarshalError"]
+- ["So16NSObjectProtocolP", "Value"]
+- ["So16NSObjectProtocolP", "any"]
+- ["So16NSObjectProtocolP", "optionalAny"]
+- !private ["So16NSObjectProtocolP", "subscript"]
+- ["So16NSObjectProtocolP", "value"]
+- !private ["So14NSSecureCodingP", "MarshalError"]
+- ["So14NSSecureCodingP", "Value"]
+- ["So14NSSecureCodingP", "any"]
+- ["So14NSSecureCodingP", "optionalAny"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- ["So14NSSecureCodingP", "value"]
+- !private ["s8SequenceP", "MarshalError"]
+- ["s8SequenceP", "Value"]
+- ["s8SequenceP", "any"]
+- ["s8SequenceP", "optionalAny"]
+- !private ["s8SequenceP", "subscript"]
+- ["s8SequenceP", "value"]
+- !private ["7Marshal9ValueTypeP", "MarshalError"]
+- ["7Marshal9ValueTypeP", "Value"]
+- ["7Marshal9ValueTypeP", "any"]
+- ["7Marshal9ValueTypeP", "optionalAny"]
+- !private ["7Marshal9ValueTypeP", "subscript"]
+- ["7Marshal9ValueTypeP", "value"]
+- ["7Marshal9ValueTypeP", ""]
+- ["s10_IndexableP", "any"]
+- ["s10_IndexableP", "optionalAny"]
+- !private ["s10_IndexableP", "subscript"]
+- ["s14_IndexableBaseP", "any"]
+- ["s14_IndexableBaseP", "optionalAny"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MarshalError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Value"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "any"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "optionalAny"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- ["s21_ObjectiveCBridgeableP", "any"]
+- ["s21_ObjectiveCBridgeableP", "optionalAny"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s8HashableP"
+- "7Marshal18JSONCollectionTypeP"
+- !private "7Marshal7KeyTypeP"
+- !private "7Marshal0A5ErrorO"
+- "7Marshal15MarshaledObjectP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So12NSDictionaryC"
+- "So17NSFastEnumerationP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "s8SequenceP"
+- "7Marshal9ValueTypeP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Target Support Files/Marshal/Marshal-umbrella.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Pods.build/Debug-iphonesimulator/Marshal.build/unextended-module.modulemap"
+interface-hash: "9ebc96519bb75522984b198507b64132"

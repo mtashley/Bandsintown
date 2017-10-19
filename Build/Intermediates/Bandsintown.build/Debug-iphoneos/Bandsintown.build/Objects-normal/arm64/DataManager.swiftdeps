@@ -1,0 +1,921 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataManagerDelegate"
+- "DataManager"
+provides-nominal:
+- "11Bandsintown19DataManagerDelegateP"
+- "11Bandsintown11DataManagerC"
+provides-member:
+- ["11Bandsintown19DataManagerDelegateP", ""]
+- ["11Bandsintown11DataManagerC", ""]
+provides-dynamic-lookup:
+- "delegate"
+- "presentArtistDetails"
+- "reloadData"
+- "sharedInstance"
+depends-top-level:
+- !private "!="
+- !private "=="
+- !private ">"
+- !private "Array"
+- "Artist"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "DataManager"
+- "DataManagerDelegate"
+- !private "DetailVC"
+- !private "FavoriteArtist"
+- !private "Int"
+- "JSON"
+- !private "NSEntityDescription"
+- !private "NSError"
+- !private "NSFetchRequest"
+- !private "NSFetchRequestResult"
+- !private "NSManagedObject"
+- !private "NSManagedObjectContext"
+- "NSObject"
+- "NSPersistentContainer"
+- !private "NSPredicate"
+- !private "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- !private "URL"
+- !private "Utilities"
+- "ViewState"
+- !private "fatalError"
+- !private "print"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["11Bandsintown6ArtistC", "init"]
+- !private ["11Bandsintown6ArtistC", "media_id"]
+- !private ["11Bandsintown6ArtistC", "name"]
+- !private ["11Bandsintown6ArtistC", "thumb_url"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "kf"]
+- !private ["s7CVarArgP", "Artist"]
+- ["s7CVarArgP", "DataManager"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "JSON"]
+- !private ["s7CVarArgP", "NSEntityDescription"]
+- !private ["s7CVarArgP", "NSFetchRequest"]
+- !private ["s7CVarArgP", "NSManagedObject"]
+- !private ["s7CVarArgP", "NSPersistentContainer"]
+- !private ["s7CVarArgP", "NSPredicate"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "Utilities"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "context"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dataSourceFavorites"]
+- !private ["s7CVarArgP", "dataSourceSearch"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "delete"]
+- !private ["s7CVarArgP", "entity"]
+- !private ["s7CVarArgP", "entityExists"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "favorite"]
+- !private ["s7CVarArgP", "fetch"]
+- !private ["s7CVarArgP", "fetchLimit"]
+- !private ["s7CVarArgP", "hasChanges"]
+- !private ["s7CVarArgP", "img_image"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isFavorited"]
+- !private ["s7CVarArgP", "kf"]
+- !private ["s7CVarArgP", "loadFavoriteArtists"]
+- !private ["s7CVarArgP", "loadPersistentStores"]
+- !private ["s7CVarArgP", "mapEntity"]
+- !private ["s7CVarArgP", "media_id"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "persistentContainer"]
+- !private ["s7CVarArgP", "predicate"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "save"]
+- !private ["s7CVarArgP", "saveContext"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["s7CVarArgP", "thumb_url"]
+- !private ["s7CVarArgP", "unfavorite"]
+- !private ["s7CVarArgP", "userInfo"]
+- !private ["s7CVarArgP", "viewContext"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "arrayObject"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "int"]
+- !private ["s10CollectionP", "null"]
+- !private ["s10CollectionP", "string"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "arrayObject"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "int"]
+- !private ["s10ComparableP", "null"]
+- !private ["s10ComparableP", "string"]
+- !private ["s10ComparableP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "Artist"]
+- ["s28CustomDebugStringConvertibleP", "DataManager"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "JSON"]
+- !private ["s28CustomDebugStringConvertibleP", "NSEntityDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "NSFetchRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "NSManagedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "NSPersistentContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "NSPredicate"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "Utilities"]
+- !private ["s28CustomDebugStringConvertibleP", "VS_Artists"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "arrayObject"]
+- !private ["s28CustomDebugStringConvertibleP", "context"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSourceFavorites"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSourceSearch"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "delete"]
+- !private ["s28CustomDebugStringConvertibleP", "entity"]
+- !private ["s28CustomDebugStringConvertibleP", "entityExists"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "favorite"]
+- !private ["s28CustomDebugStringConvertibleP", "fetch"]
+- !private ["s28CustomDebugStringConvertibleP", "fetchLimit"]
+- !private ["s28CustomDebugStringConvertibleP", "hasChanges"]
+- !private ["s28CustomDebugStringConvertibleP", "img_image"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "int"]
+- !private ["s28CustomDebugStringConvertibleP", "isFavorited"]
+- !private ["s28CustomDebugStringConvertibleP", "kf"]
+- !private ["s28CustomDebugStringConvertibleP", "loadFavoriteArtists"]
+- !private ["s28CustomDebugStringConvertibleP", "loadPersistentStores"]
+- !private ["s28CustomDebugStringConvertibleP", "mapEntity"]
+- !private ["s28CustomDebugStringConvertibleP", "media_id"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "null"]
+- !private ["s28CustomDebugStringConvertibleP", "persistentContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "predicate"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "save"]
+- !private ["s28CustomDebugStringConvertibleP", "saveContext"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "thumb_url"]
+- !private ["s28CustomDebugStringConvertibleP", "unfavorite"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "viewContext"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "VS_Artists"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Artist"]
+- ["s23CustomStringConvertibleP", "DataManager"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "JSON"]
+- !private ["s23CustomStringConvertibleP", "NSEntityDescription"]
+- !private ["s23CustomStringConvertibleP", "NSFetchRequest"]
+- !private ["s23CustomStringConvertibleP", "NSManagedObject"]
+- !private ["s23CustomStringConvertibleP", "NSPersistentContainer"]
+- !private ["s23CustomStringConvertibleP", "NSPredicate"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "Utilities"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "arrayObject"]
+- !private ["s23CustomStringConvertibleP", "context"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dataSourceFavorites"]
+- !private ["s23CustomStringConvertibleP", "dataSourceSearch"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "delete"]
+- !private ["s23CustomStringConvertibleP", "entity"]
+- !private ["s23CustomStringConvertibleP", "entityExists"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "favorite"]
+- !private ["s23CustomStringConvertibleP", "fetch"]
+- !private ["s23CustomStringConvertibleP", "fetchLimit"]
+- !private ["s23CustomStringConvertibleP", "hasChanges"]
+- !private ["s23CustomStringConvertibleP", "img_image"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "int"]
+- !private ["s23CustomStringConvertibleP", "isFavorited"]
+- !private ["s23CustomStringConvertibleP", "kf"]
+- !private ["s23CustomStringConvertibleP", "loadFavoriteArtists"]
+- !private ["s23CustomStringConvertibleP", "loadPersistentStores"]
+- !private ["s23CustomStringConvertibleP", "mapEntity"]
+- !private ["s23CustomStringConvertibleP", "media_id"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "null"]
+- !private ["s23CustomStringConvertibleP", "persistentContainer"]
+- !private ["s23CustomStringConvertibleP", "predicate"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "save"]
+- !private ["s23CustomStringConvertibleP", "saveContext"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "thumb_url"]
+- !private ["s23CustomStringConvertibleP", "unfavorite"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["s23CustomStringConvertibleP", "viewContext"]
+- ["s23CustomStringConvertibleP", ""]
+- ["11Bandsintown11DataManagerC", "Artist"]
+- ["11Bandsintown11DataManagerC", "Bool"]
+- ["11Bandsintown11DataManagerC", "DataManager"]
+- ["11Bandsintown11DataManagerC", "DataManagerDelegate"]
+- !private ["11Bandsintown11DataManagerC", "DetailVC"]
+- !private ["11Bandsintown11DataManagerC", "FavoriteArtist"]
+- !private ["11Bandsintown11DataManagerC", "Int"]
+- ["11Bandsintown11DataManagerC", "JSON"]
+- !private ["11Bandsintown11DataManagerC", "NSEntityDescription"]
+- !private ["11Bandsintown11DataManagerC", "NSError"]
+- !private ["11Bandsintown11DataManagerC", "NSFetchRequest"]
+- !private ["11Bandsintown11DataManagerC", "NSFetchRequestResult"]
+- !private ["11Bandsintown11DataManagerC", "NSManagedObject"]
+- !private ["11Bandsintown11DataManagerC", "NSManagedObjectContext"]
+- ["11Bandsintown11DataManagerC", "NSPersistentContainer"]
+- !private ["11Bandsintown11DataManagerC", "NSPredicate"]
+- !private ["11Bandsintown11DataManagerC", "String"]
+- !private ["11Bandsintown11DataManagerC", "URL"]
+- !private ["11Bandsintown11DataManagerC", "Utilities"]
+- ["11Bandsintown11DataManagerC", "ViewState"]
+- !private ["11Bandsintown11DataManagerC", "context"]
+- ["11Bandsintown11DataManagerC", "dataSource"]
+- !private ["11Bandsintown11DataManagerC", "dataSourceFavorites"]
+- !private ["11Bandsintown11DataManagerC", "dataSourceSearch"]
+- ["11Bandsintown11DataManagerC", "deinit"]
+- ["11Bandsintown11DataManagerC", "delegate"]
+- !private ["11Bandsintown11DataManagerC", "entityExists"]
+- !private ["11Bandsintown11DataManagerC", "fatalError"]
+- ["11Bandsintown11DataManagerC", "favorite"]
+- !private ["11Bandsintown11DataManagerC", "fetch"]
+- ["11Bandsintown11DataManagerC", "init"]
+- ["11Bandsintown11DataManagerC", "isFavorited"]
+- ["11Bandsintown11DataManagerC", "loadArtistDetails"]
+- ["11Bandsintown11DataManagerC", "loadFavoriteArtists"]
+- ["11Bandsintown11DataManagerC", "loadSearchResults"]
+- !private ["11Bandsintown11DataManagerC", "mapEntity"]
+- ["11Bandsintown11DataManagerC", "persistentContainer"]
+- !private ["11Bandsintown11DataManagerC", "persistentContainer.storage"]
+- !private ["11Bandsintown11DataManagerC", "print"]
+- ["11Bandsintown11DataManagerC", "saveContext"]
+- ["11Bandsintown11DataManagerC", "sharedInstance"]
+- ["11Bandsintown11DataManagerC", "toggleFavorite"]
+- ["11Bandsintown11DataManagerC", "unfavorite"]
+- ["11Bandsintown19DataManagerDelegateP", "Artist"]
+- ["11Bandsintown19DataManagerDelegateP", "presentArtistDetails"]
+- ["11Bandsintown19DataManagerDelegateP", "reloadData"]
+- !private ["s9DecodableP", "VS_Artists"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "init"]
+- !private ["So8DetailVCC", "img_image"]
+- !private ["s9EncodableP", "VS_Artists"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "Artist"]
+- ["s9EquatableP", "DataManager"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "JSON"]
+- !private ["s9EquatableP", "NSEntityDescription"]
+- !private ["s9EquatableP", "NSFetchRequest"]
+- !private ["s9EquatableP", "NSManagedObject"]
+- !private ["s9EquatableP", "NSPersistentContainer"]
+- !private ["s9EquatableP", "NSPredicate"]
+- !private ["s9EquatableP", "RT_IMAGE_THUMB"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "Utilities"]
+- !private ["s9EquatableP", "VS_Artists"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "arrayObject"]
+- !private ["s9EquatableP", "context"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "dataSourceFavorites"]
+- !private ["s9EquatableP", "dataSourceSearch"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "delete"]
+- !private ["s9EquatableP", "entity"]
+- !private ["s9EquatableP", "entityExists"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "favorite"]
+- !private ["s9EquatableP", "fetch"]
+- !private ["s9EquatableP", "fetchLimit"]
+- !private ["s9EquatableP", "hasChanges"]
+- !private ["s9EquatableP", "img_image"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "int"]
+- !private ["s9EquatableP", "isFavorited"]
+- !private ["s9EquatableP", "kf"]
+- !private ["s9EquatableP", "loadFavoriteArtists"]
+- !private ["s9EquatableP", "loadPersistentStores"]
+- !private ["s9EquatableP", "mapEntity"]
+- !private ["s9EquatableP", "media_id"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "null"]
+- !private ["s9EquatableP", "persistentContainer"]
+- !private ["s9EquatableP", "predicate"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "save"]
+- !private ["s9EquatableP", "saveContext"]
+- !private ["s9EquatableP", "setValue"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "thumb_url"]
+- !private ["s9EquatableP", "unfavorite"]
+- !private ["s9EquatableP", "userInfo"]
+- !private ["s9EquatableP", "viewContext"]
+- ["s9EquatableP", ""]
+- !private ["s5ErrorP", "userInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "arrayObject"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "int"]
+- !private ["s25ExpressibleByArrayLiteralP", "null"]
+- !private ["s25ExpressibleByArrayLiteralP", "string"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "arrayObject"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int"]
+- !private ["s27ExpressibleByBooleanLiteralP", "null"]
+- !private ["s27ExpressibleByBooleanLiteralP", "string"]
+- !private ["s27ExpressibleByBooleanLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "arrayObject"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "int"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "null"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "string"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "arrayObject"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "int"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "null"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "arrayObject"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "int"]
+- !private ["s25ExpressibleByFloatLiteralP", "null"]
+- !private ["s25ExpressibleByFloatLiteralP", "string"]
+- !private ["s25ExpressibleByFloatLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "arrayObject"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int"]
+- !private ["s27ExpressibleByIntegerLiteralP", "null"]
+- !private ["s27ExpressibleByIntegerLiteralP", "string"]
+- !private ["s27ExpressibleByIntegerLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "VS_Artists"]
+- !private ["s23ExpressibleByNilLiteralP", "arrayObject"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "int"]
+- !private ["s23ExpressibleByNilLiteralP", "null"]
+- !private ["s23ExpressibleByNilLiteralP", "string"]
+- !private ["s23ExpressibleByNilLiteralP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "arrayObject"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "int"]
+- !private ["s26ExpressibleByStringLiteralP", "null"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "arrayObject"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "int"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "null"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["11Bandsintown14FavoriteArtistC", "media_id"]
+- !private ["11Bandsintown14FavoriteArtistC", "name"]
+- !private ["11Bandsintown14FavoriteArtistC", "setValue"]
+- !private ["11Bandsintown14FavoriteArtistC", "thumb_url"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "Artist"]
+- ["s8HashableP", "DataManager"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "JSON"]
+- !private ["s8HashableP", "NSEntityDescription"]
+- !private ["s8HashableP", "NSFetchRequest"]
+- !private ["s8HashableP", "NSManagedObject"]
+- !private ["s8HashableP", "NSPersistentContainer"]
+- !private ["s8HashableP", "NSPredicate"]
+- !private ["s8HashableP", "RT_IMAGE_THUMB"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "Utilities"]
+- !private ["s8HashableP", "VS_Artists"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "context"]
+- !private ["s8HashableP", "count"]
+- !private ["s8HashableP", "dataSourceFavorites"]
+- !private ["s8HashableP", "dataSourceSearch"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "delete"]
+- !private ["s8HashableP", "entity"]
+- !private ["s8HashableP", "entityExists"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "favorite"]
+- !private ["s8HashableP", "fetch"]
+- !private ["s8HashableP", "fetchLimit"]
+- !private ["s8HashableP", "hasChanges"]
+- !private ["s8HashableP", "img_image"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isFavorited"]
+- !private ["s8HashableP", "kf"]
+- !private ["s8HashableP", "loadFavoriteArtists"]
+- !private ["s8HashableP", "loadPersistentStores"]
+- !private ["s8HashableP", "mapEntity"]
+- !private ["s8HashableP", "media_id"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "persistentContainer"]
+- !private ["s8HashableP", "predicate"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "save"]
+- !private ["s8HashableP", "saveContext"]
+- !private ["s8HashableP", "setValue"]
+- !private ["s8HashableP", "thumb_url"]
+- !private ["s8HashableP", "unfavorite"]
+- !private ["s8HashableP", "userInfo"]
+- !private ["s8HashableP", "viewContext"]
+- ["s8HashableP", ""]
+- !private ["Si", "init"]
+- !private ["10SwiftyJSON0B0V", "arrayObject"]
+- !private ["10SwiftyJSON0B0V", "init"]
+- !private ["10SwiftyJSON0B0V", "int"]
+- !private ["10SwiftyJSON0B0V", "null"]
+- !private ["10SwiftyJSON0B0V", "string"]
+- !private ["10SwiftyJSON0B0V", "subscript"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["10KingfisherAAC", "setImage"]
+- !private ["10Kingfisher0A10CompatibleP", "init"]
+- !private ["10Kingfisher0A10CompatibleP", "kf"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "delete"]
+- !private ["So8NSCodingP", "entity"]
+- !private ["So8NSCodingP", "fetch"]
+- !private ["So8NSCodingP", "fetchLimit"]
+- !private ["So8NSCodingP", "hasChanges"]
+- !private ["So8NSCodingP", "img_image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "kf"]
+- !private ["So8NSCodingP", "predicate"]
+- !private ["So8NSCodingP", "save"]
+- !private ["So8NSCodingP", "userInfo"]
+- !private ["So9NSCopyingP", "entity"]
+- !private ["So9NSCopyingP", "fetchLimit"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "predicate"]
+- !private ["So9NSCopyingP", "userInfo"]
+- !private ["So19NSEntityDescriptionC", "entity"]
+- !private ["So7NSErrorC", "userInfo"]
+- !private ["So26NSExtensionRequestHandlingP", "img_image"]
+- !private ["So17NSFastEnumerationP", "entity"]
+- !private ["So14NSFetchRequestC", "fetchLimit"]
+- !private ["So14NSFetchRequestC", "init"]
+- !private ["So14NSFetchRequestC", "predicate"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So20NSFetchRequestResultP", "media_id"]
+- !private ["So20NSFetchRequestResultP", "name"]
+- !private ["So20NSFetchRequestResultP", "setValue"]
+- !private ["So20NSFetchRequestResultP", "thumb_url"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So9NSLockingP", "count"]
+- !private ["So9NSLockingP", "delete"]
+- !private ["So9NSLockingP", "fetch"]
+- !private ["So9NSLockingP", "hasChanges"]
+- !private ["So9NSLockingP", "save"]
+- !private ["So15NSManagedObjectC", "init"]
+- !private ["So15NSManagedObjectC", "media_id"]
+- !private ["So15NSManagedObjectC", "name"]
+- !private ["So15NSManagedObjectC", "setValue"]
+- !private ["So15NSManagedObjectC", "thumb_url"]
+- !private ["So22NSManagedObjectContextC", "count"]
+- !private ["So22NSManagedObjectContextC", "delete"]
+- !private ["So22NSManagedObjectContextC", "fetch"]
+- !private ["So22NSManagedObjectContextC", "hasChanges"]
+- !private ["So22NSManagedObjectContextC", "save"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Artist"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "DataManager"]
+- ["So8NSObjectC", "DataManagerDelegate"]
+- !private ["So8NSObjectC", "DetailVC"]
+- !private ["So8NSObjectC", "FavoriteArtist"]
+- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "JSON"]
+- !private ["So8NSObjectC", "NSEntityDescription"]
+- !private ["So8NSObjectC", "NSError"]
+- !private ["So8NSObjectC", "NSFetchRequest"]
+- !private ["So8NSObjectC", "NSFetchRequestResult"]
+- !private ["So8NSObjectC", "NSManagedObject"]
+- !private ["So8NSObjectC", "NSManagedObjectContext"]
+- ["So8NSObjectC", "NSPersistentContainer"]
+- !private ["So8NSObjectC", "NSPredicate"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "Utilities"]
+- ["So8NSObjectC", "ViewState"]
+- ["So8NSObjectC", "context"]
+- !private ["So8NSObjectC", "count"]
+- ["So8NSObjectC", "dataSource"]
+- ["So8NSObjectC", "dataSourceFavorites"]
+- ["So8NSObjectC", "dataSourceSearch"]
+- ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "delete"]
+- !private ["So8NSObjectC", "entity"]
+- ["So8NSObjectC", "entityExists"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "favorite"]
+- ["So8NSObjectC", "fetch"]
+- !private ["So8NSObjectC", "fetchLimit"]
+- !private ["So8NSObjectC", "hasChanges"]
+- !private ["So8NSObjectC", "img_image"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isFavorited"]
+- !private ["So8NSObjectC", "kf"]
+- ["So8NSObjectC", "loadArtistDetails"]
+- ["So8NSObjectC", "loadFavoriteArtists"]
+- !private ["So8NSObjectC", "loadPersistentStores"]
+- ["So8NSObjectC", "loadSearchResults"]
+- ["So8NSObjectC", "mapEntity"]
+- !private ["So8NSObjectC", "media_id"]
+- !private ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "persistentContainer"]
+- ["So8NSObjectC", "persistentContainer.storage"]
+- !private ["So8NSObjectC", "predicate"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "save"]
+- ["So8NSObjectC", "saveContext"]
+- !private ["So8NSObjectC", "setValue"]
+- ["So8NSObjectC", "sharedInstance"]
+- !private ["So8NSObjectC", "thumb_url"]
+- ["So8NSObjectC", "toggleFavorite"]
+- ["So8NSObjectC", "unfavorite"]
+- !private ["So8NSObjectC", "userInfo"]
+- !private ["So8NSObjectC", "viewContext"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "Artist"]
+- ["So16NSObjectProtocolP", "DataManager"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- !private ["So16NSObjectProtocolP", "JSON"]
+- !private ["So16NSObjectProtocolP", "NSEntityDescription"]
+- !private ["So16NSObjectProtocolP", "NSFetchRequest"]
+- !private ["So16NSObjectProtocolP", "NSManagedObject"]
+- !private ["So16NSObjectProtocolP", "NSPersistentContainer"]
+- !private ["So16NSObjectProtocolP", "NSPredicate"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "Utilities"]
+- !private ["So16NSObjectProtocolP", "context"]
+- !private ["So16NSObjectProtocolP", "count"]
+- !private ["So16NSObjectProtocolP", "dataSourceFavorites"]
+- !private ["So16NSObjectProtocolP", "dataSourceSearch"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "delete"]
+- !private ["So16NSObjectProtocolP", "entity"]
+- !private ["So16NSObjectProtocolP", "entityExists"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "favorite"]
+- !private ["So16NSObjectProtocolP", "fetch"]
+- !private ["So16NSObjectProtocolP", "fetchLimit"]
+- !private ["So16NSObjectProtocolP", "hasChanges"]
+- !private ["So16NSObjectProtocolP", "img_image"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isFavorited"]
+- !private ["So16NSObjectProtocolP", "kf"]
+- !private ["So16NSObjectProtocolP", "loadFavoriteArtists"]
+- !private ["So16NSObjectProtocolP", "loadPersistentStores"]
+- !private ["So16NSObjectProtocolP", "mapEntity"]
+- !private ["So16NSObjectProtocolP", "media_id"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "persistentContainer"]
+- !private ["So16NSObjectProtocolP", "predicate"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "save"]
+- !private ["So16NSObjectProtocolP", "saveContext"]
+- !private ["So16NSObjectProtocolP", "setValue"]
+- !private ["So16NSObjectProtocolP", "thumb_url"]
+- !private ["So16NSObjectProtocolP", "unfavorite"]
+- !private ["So16NSObjectProtocolP", "userInfo"]
+- !private ["So16NSObjectProtocolP", "viewContext"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So21NSPersistentContainerC", "init"]
+- !private ["So21NSPersistentContainerC", "loadPersistentStores"]
+- !private ["So21NSPersistentContainerC", "viewContext"]
+- !private ["So24NSPersistentStoreRequestC", "fetchLimit"]
+- !private ["So24NSPersistentStoreRequestC", "predicate"]
+- !private ["So11NSPredicateC", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "userInfo"]
+- !private ["So8NSStringC", "init"]
+- !private ["s7NumericP", "init"]
+- !private ["Sq", "VS_Artists"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "arrayObject"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "int"]
+- !private ["s16RawRepresentableP", "null"]
+- !private ["s16RawRepresentableP", "string"]
+- !private ["s16RawRepresentableP", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["11Bandsintown11RequestTypeO", "RT_IMAGE_THUMB"]
+- !private ["10Kingfisher8ResourceP", "init"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "arrayObject"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "int"]
+- !private ["s8SequenceP", "null"]
+- !private ["s8SequenceP", "string"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s5SliceV", "arrayObject"]
+- !private ["s5SliceV", "int"]
+- !private ["s5SliceV", "string"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "kf"]
+- !private ["So29UIAccessibilityIdentificationP", "kf"]
+- !private ["So12UIAppearanceP", "kf"]
+- !private ["So21UIAppearanceContainerP", "img_image"]
+- !private ["So21UIAppearanceContainerP", "kf"]
+- !private ["So18UIContentContainerP", "img_image"]
+- !private ["So17UICoordinateSpaceP", "kf"]
+- !private ["So13UIDynamicItemP", "kf"]
+- !private ["So18UIFocusEnvironmentP", "img_image"]
+- !private ["So18UIFocusEnvironmentP", "kf"]
+- !private ["So11UIFocusItemP", "kf"]
+- !private ["So11UIImageViewC", "kf"]
+- !private ["So30UIPasteConfigurationSupportingP", "img_image"]
+- !private ["So30UIPasteConfigurationSupportingP", "kf"]
+- !private ["So11UIResponderC", "img_image"]
+- !private ["So11UIResponderC", "kf"]
+- !private ["So30UIResponderStandardEditActionsP", "img_image"]
+- !private ["So30UIResponderStandardEditActionsP", "kf"]
+- !private ["So16UIStateRestoringP", "img_image"]
+- !private ["So18UITraitEnvironmentP", "img_image"]
+- !private ["So18UITraitEnvironmentP", "kf"]
+- !private ["So6UIViewC", "kf"]
+- !private ["So16UIViewControllerC", "img_image"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["11Bandsintown9UtilitiesC", "cleanURL"]
+- !private ["11Bandsintown9ViewStateO", "VS_Artists"]
+- !private ["11Bandsintown9ViewStateO", "deinit"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "kf"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "arrayObject"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "int"]
+- !private ["s10_IndexableP", "null"]
+- !private ["s10_IndexableP", "string"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "arrayObject"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "int"]
+- !private ["s14_IndexableBaseP", "null"]
+- !private ["s14_IndexableBaseP", "string"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Artist"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DataManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSON"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSEntityDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSFetchRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSManagedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSPersistentContainer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSPredicate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Utilities"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "context"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSourceFavorites"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSourceSearch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delete"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "entity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "entityExists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "favorite"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetchLimit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasChanges"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "img_image"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFavorited"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kf"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadFavoriteArtists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadPersistentStores"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mapEntity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "media_id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "persistentContainer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "predicate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "saveContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "thumb_url"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unfavorite"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewContext"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "VS_Artists"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_OptionalNilComparisonTypeV", "VS_Artists"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "11Bandsintown6ArtistC"
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "11Bandsintown11DataManagerC"
+- "11Bandsintown19DataManagerDelegateP"
+- !private "s9DecodableP"
+- !private "So8DetailVCC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "11Bandsintown14FavoriteArtistC"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "10SwiftyJSON0B0V"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "10KingfisherAAC"
+- !private "10Kingfisher0A10CompatibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So19NSEntityDescriptionC"
+- !private "So7NSErrorC"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So17NSFastEnumerationP"
+- !private "So14NSFetchRequestC"
+- !private "So20NSFetchRequestResultP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So9NSLockingP"
+- !private "So15NSManagedObjectC"
+- !private "So22NSManagedObjectContextC"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So21NSPersistentContainerC"
+- !private "So24NSPersistentStoreRequestC"
+- !private "So11NSPredicateC"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s7NumericP"
+- !private "Sq"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "11Bandsintown11RequestTypeO"
+- !private "10Kingfisher8ResourceP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s5SliceV"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So11UIImageViewC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "11Bandsintown9UtilitiesC"
+- !private "11Bandsintown9ViewStateO"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Accelerate.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Accelerate.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Views/Objective-C/DetailVC.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Assets/Bandsintown-Bridging-Header.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+interface-hash: "65bc53c2295a02823027eff1e7812d53"

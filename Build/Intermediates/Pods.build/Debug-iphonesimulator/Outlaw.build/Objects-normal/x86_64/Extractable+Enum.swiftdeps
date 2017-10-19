@@ -1,0 +1,167 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["6Outlaw11ExtractableP", ""]
+- ["6Outlaw11ExtractableP", "value"]
+- ["6Outlaw11ExtractableP", "value"]
+- ["6Outlaw11ExtractableP", "value"]
+- ["6Outlaw11ExtractableP", "value"]
+- ["6Outlaw11ExtractableP", "value"]
+- ["6Outlaw11ExtractableP", "value"]
+- ["6Outlaw11ExtractableP", "value"]
+- ["6Outlaw11ExtractableP", "value"]
+- ["6Outlaw11ExtractableP", "value"]
+- ["6Outlaw11ExtractableP", "value"]
+- ["6Outlaw11ExtractableP", "value"]
+- ["6Outlaw11ExtractableP", "value"]
+provides-dynamic-lookup:
+depends-top-level:
+- "CastingPrecedence"
+- !private "Dictionary"
+- "Extractable"
+- "Key"
+- !private "OutlawError"
+- "RawRepresentable"
+- "Set"
+- "Value"
+- !private "type"
+depends-member:
+- !private ["Sa", "map"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "mappedValue"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "mappedValue"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "mappedValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "mappedValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "mappedValue"]
+- ["s23CustomStringConvertibleP", "typeMismatch"]
+- !private ["s23CustomStringConvertibleP", "typeMismatchWithKey"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "mappedValue"]
+- !private ["s10DictionaryV", "map"]
+- !private ["s10DictionaryV", "mappedValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "mappedValue"]
+- !private ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "init"]
+- ["s5ErrorP", "typeMismatch"]
+- !private ["s5ErrorP", "typeMismatchWithKey"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "mappedValue"]
+- !private ["6Outlaw11ExtractableP", "Dictionary"]
+- ["6Outlaw11ExtractableP", "Key"]
+- !private ["6Outlaw11ExtractableP", "OutlawError"]
+- ["6Outlaw11ExtractableP", "RawRepresentable"]
+- ["6Outlaw11ExtractableP", "Set"]
+- ["6Outlaw11ExtractableP", "Value"]
+- !private ["6Outlaw11ExtractableP", "any"]
+- !private ["6Outlaw11ExtractableP", "map"]
+- !private ["6Outlaw11ExtractableP", "mappedValue"]
+- !private ["6Outlaw11ExtractableP", "type"]
+- ["6Outlaw11ExtractableP", "value"]
+- !private ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "init"]
+- !private ["6Outlaw16IndexExtractableP", "map"]
+- !private ["6Outlaw14JSONCollectionP", "init"]
+- !private ["6Outlaw14JSONCollectionP", "map"]
+- !private ["6Outlaw14JSONCollectionP", "mappedValue"]
+- !private ["6Outlaw3KeyP", "outlawKey"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["6Outlaw0A5ErrorO", "deinit"]
+- ["6Outlaw0A5ErrorO", "typeMismatch"]
+- !private ["6Outlaw0A5ErrorO", "typeMismatchWithKey"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s16RawRepresentableP", "RawValue"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "mappedValue"]
+- !private ["s3SetV", "init"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["SS", "deinit"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s23_BidirectionalIndexableP", "map"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "map"]
+- !private ["s10_IndexableP", "mappedValue"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "map"]
+- !private ["s14_IndexableBaseP", "mappedValue"]
+- !private ["s17_MutableIndexableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "mappedValue"]
+- !private ["s22_RandomAccessIndexableP", "map"]
+- !private ["s26_RangeReplaceableIndexableP", "map"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "6Outlaw11ExtractableP"
+- !private "s8HashableP"
+- !private "6Outlaw16IndexExtractableP"
+- !private "6Outlaw14JSONCollectionP"
+- !private "6Outlaw3KeyP"
+- !private "s17MutableCollectionP"
+- "6Outlaw0A5ErrorO"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s3SetV"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Target Support Files/Outlaw/Outlaw-umbrella.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Pods.build/Debug-iphonesimulator/Outlaw.build/unextended-module.modulemap"
+interface-hash: "7e534a0f250c85f5ff55406b9140269c"

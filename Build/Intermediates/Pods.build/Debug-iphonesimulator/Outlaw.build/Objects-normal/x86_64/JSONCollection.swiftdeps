@@ -1,0 +1,198 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JSONCollection"
+provides-nominal:
+- "6Outlaw14JSONCollectionP"
+- "s10DictionaryV"
+- "So12NSDictionaryC"
+- "Sa"
+- "So7NSArrayC"
+- "s3SetV"
+- "So5NSSetC"
+provides-member:
+- ["6Outlaw14JSONCollectionP", ""]
+- ["s10DictionaryV", ""]
+- ["So12NSDictionaryC", ""]
+- ["Sa", ""]
+- ["So7NSArrayC", ""]
+- ["s3SetV", ""]
+- ["So5NSSetC", ""]
+- ["6Outlaw14JSONCollectionP", "isValidJson"]
+- ["6Outlaw14JSONCollectionP", "jsonData"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "Bool"
+- "Data"
+- "Dictionary"
+- !private "JSON"
+- "JSONCollection"
+- "NSArray"
+- "NSDictionary"
+- "NSSet"
+- "Set"
+depends-member:
+- ["Sa", "deinit"]
+- ["Sa", "isValidJson"]
+- ["Sa", "jsonData"]
+- ["s23BidirectionalCollectionP", "isValidJson"]
+- ["s23BidirectionalCollectionP", "jsonData"]
+- ["s7CVarArgP", "isValidJson"]
+- ["s7CVarArgP", "jsonData"]
+- ["s10CollectionP", "isValidJson"]
+- ["s10CollectionP", "jsonData"]
+- ["s28CustomDebugStringConvertibleP", "isValidJson"]
+- ["s28CustomDebugStringConvertibleP", "jsonData"]
+- ["s17CustomReflectableP", "isValidJson"]
+- ["s17CustomReflectableP", "jsonData"]
+- ["s23CustomStringConvertibleP", "isValidJson"]
+- ["s23CustomStringConvertibleP", "jsonData"]
+- ["s9DecodableP", "isValidJson"]
+- ["s9DecodableP", "jsonData"]
+- ["s10DictionaryV", "deinit"]
+- ["s10DictionaryV", "isValidJson"]
+- ["s10DictionaryV", "jsonData"]
+- ["s9EncodableP", "isValidJson"]
+- ["s9EncodableP", "jsonData"]
+- ["s9EquatableP", "isValidJson"]
+- ["s9EquatableP", "jsonData"]
+- ["s25ExpressibleByArrayLiteralP", "isValidJson"]
+- ["s25ExpressibleByArrayLiteralP", "jsonData"]
+- ["s30ExpressibleByDictionaryLiteralP", "isValidJson"]
+- ["s30ExpressibleByDictionaryLiteralP", "jsonData"]
+- ["6Outlaw11ExtractableP", "isValidJson"]
+- ["6Outlaw11ExtractableP", "jsonData"]
+- ["s8HashableP", "isValidJson"]
+- ["s8HashableP", "jsonData"]
+- ["6Outlaw16IndexExtractableP", "isValidJson"]
+- ["6Outlaw16IndexExtractableP", "jsonData"]
+- !private ["6Outlaw4JSONV", "data"]
+- !private ["6Outlaw4JSONV", "isValid"]
+- ["6Outlaw14JSONCollectionP", "Bool"]
+- ["6Outlaw14JSONCollectionP", "Data"]
+- !private ["6Outlaw14JSONCollectionP", "JSON"]
+- ["6Outlaw14JSONCollectionP", "isValidJson"]
+- ["6Outlaw14JSONCollectionP", "jsonData"]
+- ["6Outlaw14JSONCollectionP", ""]
+- ["s17MutableCollectionP", "isValidJson"]
+- ["s17MutableCollectionP", "jsonData"]
+- ["So7NSArrayC", "deinit"]
+- ["So7NSArrayC", "isValidJson"]
+- ["So7NSArrayC", "jsonData"]
+- ["So8NSCodingP", "isValidJson"]
+- ["So8NSCodingP", "jsonData"]
+- ["So9NSCopyingP", "isValidJson"]
+- ["So9NSCopyingP", "jsonData"]
+- ["So12NSDictionaryC", "deinit"]
+- ["So12NSDictionaryC", "isValidJson"]
+- ["So12NSDictionaryC", "jsonData"]
+- ["So17NSFastEnumerationP", "isValidJson"]
+- ["So17NSFastEnumerationP", "jsonData"]
+- ["So16NSMutableCopyingP", "isValidJson"]
+- ["So16NSMutableCopyingP", "jsonData"]
+- ["So8NSObjectC", "isValidJson"]
+- ["So8NSObjectC", "jsonData"]
+- ["So16NSObjectProtocolP", "isValidJson"]
+- ["So16NSObjectProtocolP", "jsonData"]
+- ["So14NSSecureCodingP", "isValidJson"]
+- ["So14NSSecureCodingP", "jsonData"]
+- ["So5NSSetC", "deinit"]
+- ["So5NSSetC", "isValidJson"]
+- ["So5NSSetC", "jsonData"]
+- ["s22RandomAccessCollectionP", "isValidJson"]
+- ["s22RandomAccessCollectionP", "jsonData"]
+- ["s26RangeReplaceableCollectionP", "isValidJson"]
+- ["s26RangeReplaceableCollectionP", "jsonData"]
+- ["s8SequenceP", "isValidJson"]
+- ["s8SequenceP", "jsonData"]
+- ["s3SetV", "deinit"]
+- ["s3SetV", "isValidJson"]
+- ["s3SetV", "jsonData"]
+- ["s10SetAlgebraP", "isValidJson"]
+- ["s10SetAlgebraP", "jsonData"]
+- ["s14_ArrayProtocolP", "isValidJson"]
+- ["s14_ArrayProtocolP", "jsonData"]
+- ["s23_BidirectionalIndexableP", "isValidJson"]
+- ["s23_BidirectionalIndexableP", "jsonData"]
+- ["s24_DestructorSafeContainerP", "isValidJson"]
+- ["s24_DestructorSafeContainerP", "jsonData"]
+- ["s35_HasCustomAnyHashableRepresentationP", "isValidJson"]
+- ["s35_HasCustomAnyHashableRepresentationP", "jsonData"]
+- ["s10_IndexableP", "isValidJson"]
+- ["s10_IndexableP", "jsonData"]
+- ["s14_IndexableBaseP", "isValidJson"]
+- ["s14_IndexableBaseP", "jsonData"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "isValidJson"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "jsonData"]
+- ["s17_MutableIndexableP", "isValidJson"]
+- ["s17_MutableIndexableP", "jsonData"]
+- ["s21_ObjectiveCBridgeableP", "isValidJson"]
+- ["s21_ObjectiveCBridgeableP", "jsonData"]
+- ["s22_RandomAccessIndexableP", "isValidJson"]
+- ["s22_RandomAccessIndexableP", "jsonData"]
+- ["s26_RangeReplaceableIndexableP", "isValidJson"]
+- ["s26_RangeReplaceableIndexableP", "jsonData"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "6Outlaw11ExtractableP"
+- "s8HashableP"
+- "6Outlaw16IndexExtractableP"
+- !private "6Outlaw4JSONV"
+- "6Outlaw14JSONCollectionP"
+- "s17MutableCollectionP"
+- "So7NSArrayC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So12NSDictionaryC"
+- "So17NSFastEnumerationP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So5NSSetC"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "s3SetV"
+- "s10SetAlgebraP"
+- "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- "s24_DestructorSafeContainerP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Target Support Files/Outlaw/Outlaw-umbrella.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Pods.build/Debug-iphonesimulator/Outlaw.build/unextended-module.modulemap"
+interface-hash: "5cb3021bb2f2b13a557aac14dd166c1b"

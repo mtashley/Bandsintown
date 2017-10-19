@@ -1,0 +1,310 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "10Foundation4DateV"
+provides-member:
+- ["10Foundation4DateV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Date"
+- "DateFormatter"
+- !private "ISO8601DateFormatter"
+- !private "OutlawError"
+- !private "String"
+- !private "StringLiteralType"
+- !private "TimeZone"
+- "Value"
+- !private "type"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "DateFormatter"]
+- !private ["s7CVarArgP", "ISO8601DateFormatter"]
+- !private ["s7CVarArgP", "TimeZone"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "timeZone"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "DateFormatter"]
+- !private ["s10ComparableP", "ISO8601DateFormatter"]
+- !private ["s10ComparableP", "OutlawError"]
+- !private ["s10ComparableP", "String"]
+- ["s10ComparableP", "ValueType"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "type"]
+- ["s10ComparableP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "ISO8601DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "OutlawError"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "TimeZone"]
+- ["s28CustomDebugStringConvertibleP", "ValueType"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "timeZone"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s29CustomPlaygroundQuickLookableP", "DateFormatter"]
+- !private ["s29CustomPlaygroundQuickLookableP", "ISO8601DateFormatter"]
+- !private ["s29CustomPlaygroundQuickLookableP", "OutlawError"]
+- !private ["s29CustomPlaygroundQuickLookableP", "String"]
+- ["s29CustomPlaygroundQuickLookableP", "ValueType"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "type"]
+- ["s29CustomPlaygroundQuickLookableP", "value"]
+- !private ["s17CustomReflectableP", "DateFormatter"]
+- !private ["s17CustomReflectableP", "ISO8601DateFormatter"]
+- !private ["s17CustomReflectableP", "OutlawError"]
+- !private ["s17CustomReflectableP", "String"]
+- ["s17CustomReflectableP", "ValueType"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "type"]
+- ["s17CustomReflectableP", "value"]
+- !private ["s23CustomStringConvertibleP", "DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "ISO8601DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "OutlawError"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "TimeZone"]
+- ["s23CustomStringConvertibleP", "ValueType"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "timeZone"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "typeMismatch"]
+- ["s23CustomStringConvertibleP", "value"]
+- ["10Foundation4DateV", "Date"]
+- !private ["10Foundation4DateV", "DateFormatter"]
+- !private ["10Foundation4DateV", "ISO8601DateFormatter"]
+- !private ["10Foundation4DateV", "OutlawError"]
+- !private ["10Foundation4DateV", "String"]
+- ["10Foundation4DateV", "ValueType"]
+- ["10Foundation4DateV", "deinit"]
+- !private ["10Foundation4DateV", "type"]
+- ["10Foundation4DateV", "value"]
+- !private ["So13DateFormatterC", "DateFormatter"]
+- !private ["So13DateFormatterC", "ISO8601DateFormatter"]
+- !private ["So13DateFormatterC", "TimeZone"]
+- !private ["So13DateFormatterC", "date"]
+- !private ["So13DateFormatterC", "dateFormat"]
+- !private ["So13DateFormatterC", "init"]
+- !private ["So13DateFormatterC", "timeZone"]
+- !private ["s9DecodableP", "DateFormatter"]
+- !private ["s9DecodableP", "ISO8601DateFormatter"]
+- !private ["s9DecodableP", "OutlawError"]
+- !private ["s9DecodableP", "String"]
+- ["s9DecodableP", "ValueType"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "type"]
+- ["s9DecodableP", "value"]
+- !private ["s9EncodableP", "DateFormatter"]
+- !private ["s9EncodableP", "ISO8601DateFormatter"]
+- !private ["s9EncodableP", "OutlawError"]
+- !private ["s9EncodableP", "String"]
+- ["s9EncodableP", "ValueType"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "type"]
+- ["s9EncodableP", "value"]
+- !private ["s9EquatableP", "DateFormatter"]
+- !private ["s9EquatableP", "ISO8601DateFormatter"]
+- !private ["s9EquatableP", "OutlawError"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "TimeZone"]
+- ["s9EquatableP", "ValueType"]
+- !private ["s9EquatableP", "date"]
+- !private ["s9EquatableP", "dateFormat"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "timeZone"]
+- !private ["s9EquatableP", "type"]
+- ["s9EquatableP", "value"]
+- !private ["s5ErrorP", "typeMismatch"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So9FormatterC", "DateFormatter"]
+- !private ["So9FormatterC", "ISO8601DateFormatter"]
+- !private ["So9FormatterC", "TimeZone"]
+- !private ["So9FormatterC", "date"]
+- !private ["So9FormatterC", "dateFormat"]
+- !private ["So9FormatterC", "init"]
+- !private ["So9FormatterC", "timeZone"]
+- !private ["s8HashableP", "DateFormatter"]
+- !private ["s8HashableP", "ISO8601DateFormatter"]
+- !private ["s8HashableP", "OutlawError"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "TimeZone"]
+- ["s8HashableP", "ValueType"]
+- !private ["s8HashableP", "date"]
+- !private ["s8HashableP", "dateFormat"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "timeZone"]
+- !private ["s8HashableP", "type"]
+- ["s8HashableP", "value"]
+- !private ["So20ISO8601DateFormatterC", "date"]
+- !private ["So20ISO8601DateFormatterC", "init"]
+- !private ["6Outlaw3KeyP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "DateFormatter"]
+- !private ["So8NSCodingP", "ISO8601DateFormatter"]
+- !private ["So8NSCodingP", "TimeZone"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "timeZone"]
+- !private ["So9NSCopyingP", "DateFormatter"]
+- !private ["So9NSCopyingP", "ISO8601DateFormatter"]
+- !private ["So9NSCopyingP", "TimeZone"]
+- !private ["So9NSCopyingP", "date"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "timeZone"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "DateFormatter"]
+- !private ["So8NSObjectC", "ISO8601DateFormatter"]
+- !private ["So8NSObjectC", "TimeZone"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "timeZone"]
+- !private ["So16NSObjectProtocolP", "DateFormatter"]
+- !private ["So16NSObjectProtocolP", "ISO8601DateFormatter"]
+- !private ["So16NSObjectProtocolP", "TimeZone"]
+- !private ["So16NSObjectProtocolP", "date"]
+- !private ["So16NSObjectProtocolP", "dateFormat"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "timeZone"]
+- !private ["So14NSSecureCodingP", "date"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["6Outlaw0A5ErrorO", "deinit"]
+- !private ["6Outlaw0A5ErrorO", "typeMismatch"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "DateFormatter"]
+- !private ["10Foundation20ReferenceConvertibleP", "ISO8601DateFormatter"]
+- !private ["10Foundation20ReferenceConvertibleP", "OutlawError"]
+- !private ["10Foundation20ReferenceConvertibleP", "String"]
+- ["10Foundation20ReferenceConvertibleP", "ValueType"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "type"]
+- ["10Foundation20ReferenceConvertibleP", "value"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation8TimeZoneV", "init"]
+- !private ["6Outlaw5ValueP", "DateFormatter"]
+- !private ["6Outlaw5ValueP", "ISO8601DateFormatter"]
+- !private ["6Outlaw5ValueP", "OutlawError"]
+- !private ["6Outlaw5ValueP", "String"]
+- ["6Outlaw5ValueP", "ValueType"]
+- !private ["6Outlaw5ValueP", "init"]
+- !private ["6Outlaw5ValueP", "type"]
+- ["6Outlaw5ValueP", "value"]
+- ["6Outlaw5ValueP", ""]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ISO8601DateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TimeZone"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeZone"]
+- !private ["s21_ObjectiveCBridgeableP", "DateFormatter"]
+- !private ["s21_ObjectiveCBridgeableP", "ISO8601DateFormatter"]
+- !private ["s21_ObjectiveCBridgeableP", "OutlawError"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- ["s21_ObjectiveCBridgeableP", "ValueType"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "type"]
+- ["s21_ObjectiveCBridgeableP", "value"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
+- !private "So13DateFormatterC"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So9FormatterC"
+- "s8HashableP"
+- !private "So20ISO8601DateFormatterC"
+- !private "6Outlaw3KeyP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "6Outlaw0A5ErrorO"
+- !private "s26RangeReplaceableCollectionP"
+- "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation8TimeZoneV"
+- "6Outlaw5ValueP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Target Support Files/Outlaw/Outlaw-umbrella.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Pods.build/Debug-iphonesimulator/Outlaw.build/unextended-module.modulemap"
+interface-hash: "61a63518e698c28fa85721405916ed33"

@@ -1,0 +1,57 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Deserializable"
+provides-nominal:
+- "6Outlaw14DeserializableP"
+provides-member:
+- ["6Outlaw14DeserializableP", ""]
+- ["6Outlaw14DeserializableP", "value"]
+provides-dynamic-lookup:
+depends-top-level:
+- "CastingPrecedence"
+- "Deserializable"
+- "Extractable"
+- !private "OutlawError"
+- "Value"
+- !private "type"
+depends-member:
+- !private ["s23CustomStringConvertibleP", "typeMismatch"]
+- ["6Outlaw14DeserializableP", "Extractable"]
+- !private ["6Outlaw14DeserializableP", "OutlawError"]
+- ["6Outlaw14DeserializableP", "ValueType"]
+- ["6Outlaw14DeserializableP", "init"]
+- !private ["6Outlaw14DeserializableP", "type"]
+- ["6Outlaw14DeserializableP", "value"]
+- !private ["s5ErrorP", "typeMismatch"]
+- !private ["6Outlaw0A5ErrorO", "deinit"]
+- !private ["6Outlaw0A5ErrorO", "typeMismatch"]
+- ["6Outlaw5ValueP", "Extractable"]
+- !private ["6Outlaw5ValueP", "OutlawError"]
+- ["6Outlaw5ValueP", "ValueType"]
+- ["6Outlaw5ValueP", "init"]
+- !private ["6Outlaw5ValueP", "type"]
+- ["6Outlaw5ValueP", ""]
+depends-nominal:
+- !private "s23CustomStringConvertibleP"
+- "6Outlaw14DeserializableP"
+- !private "s5ErrorP"
+- !private "6Outlaw0A5ErrorO"
+- "6Outlaw5ValueP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Target Support Files/Outlaw/Outlaw-umbrella.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Pods.build/Debug-iphonesimulator/Outlaw.build/unextended-module.modulemap"
+interface-hash: "8a545c0202e0b77ef7a493bd5546b1b1"

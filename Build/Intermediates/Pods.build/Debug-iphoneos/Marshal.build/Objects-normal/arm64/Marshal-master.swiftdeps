@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "62c88555ab2078d27a59ae93432273f9"
+build_time: [1508036107, 355674000]
+inputs:
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Marshal/Sources/Error.swift": [1508033430, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Marshal/Sources/JSON.swift": [1508033430, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Marshal/Sources/KeyType.swift": [1508033430, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Marshal/Sources/MarshalDictionary.swift": [1508033430, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Marshal/Sources/MarshaledObject.swift": [1508033430, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Marshal/Sources/Marshaling.swift": [1508033430, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Marshal/Sources/Migration.swift": [1508033430, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Marshal/Sources/Operators.swift": [1508033430, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Marshal/Sources/Unmarshaling.swift": [1508033430, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Marshal/Sources/UnmarshalingWithContext.swift": [1508033430, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Marshal/Sources/UnmarshalUpdating.swift": [1508033430, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Marshal/Sources/ValueType.swift": [1508033430, 0]

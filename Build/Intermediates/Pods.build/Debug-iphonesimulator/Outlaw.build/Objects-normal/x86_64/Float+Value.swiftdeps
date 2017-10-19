@@ -1,0 +1,241 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "Sf"
+- "Sd"
+provides-member:
+- ["Sf", ""]
+- ["Sd", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Double"
+- "Float"
+- !private "NSNumber"
+- !private "OutlawError"
+- "Value"
+- !private "type"
+depends-member:
+- !private ["s19BinaryFloatingPointP", "OutlawError"]
+- ["s19BinaryFloatingPointP", "ValueType"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s19BinaryFloatingPointP", "type"]
+- ["s19BinaryFloatingPointP", "value"]
+- !private ["s7CVarArgP", "OutlawError"]
+- ["s7CVarArgP", "ValueType"]
+- !private ["s7CVarArgP", "floatValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "type"]
+- ["s7CVarArgP", "value"]
+- !private ["s10ComparableP", "OutlawError"]
+- ["s10ComparableP", "ValueType"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "type"]
+- ["s10ComparableP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "OutlawError"]
+- ["s28CustomDebugStringConvertibleP", "ValueType"]
+- !private ["s28CustomDebugStringConvertibleP", "floatValue"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s29CustomPlaygroundQuickLookableP", "OutlawError"]
+- ["s29CustomPlaygroundQuickLookableP", "ValueType"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "type"]
+- ["s29CustomPlaygroundQuickLookableP", "value"]
+- !private ["s17CustomReflectableP", "OutlawError"]
+- ["s17CustomReflectableP", "ValueType"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "type"]
+- ["s17CustomReflectableP", "value"]
+- !private ["s23CustomStringConvertibleP", "OutlawError"]
+- ["s23CustomStringConvertibleP", "ValueType"]
+- !private ["s23CustomStringConvertibleP", "floatValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "typeMismatch"]
+- ["s23CustomStringConvertibleP", "value"]
+- !private ["s9DecodableP", "OutlawError"]
+- ["s9DecodableP", "ValueType"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "type"]
+- ["s9DecodableP", "value"]
+- ["Sd", "Double"]
+- !private ["Sd", "Float"]
+- !private ["Sd", "NSNumber"]
+- !private ["Sd", "OutlawError"]
+- ["Sd", "ValueType"]
+- ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["Sd", "type"]
+- ["Sd", "value"]
+- !private ["s9EncodableP", "OutlawError"]
+- ["s9EncodableP", "ValueType"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "type"]
+- ["s9EncodableP", "value"]
+- !private ["s9EquatableP", "OutlawError"]
+- ["s9EquatableP", "ValueType"]
+- !private ["s9EquatableP", "floatValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "type"]
+- ["s9EquatableP", "value"]
+- !private ["s5ErrorP", "typeMismatch"]
+- !private ["s27ExpressibleByBooleanLiteralP", "floatValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "OutlawError"]
+- ["s25ExpressibleByFloatLiteralP", "ValueType"]
+- !private ["s25ExpressibleByFloatLiteralP", "floatValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "type"]
+- ["s25ExpressibleByFloatLiteralP", "value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "OutlawError"]
+- ["s27ExpressibleByIntegerLiteralP", "ValueType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "floatValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "type"]
+- ["s27ExpressibleByIntegerLiteralP", "value"]
+- !private ["Sf", "Double"]
+- ["Sf", "Float"]
+- !private ["Sf", "NSNumber"]
+- !private ["Sf", "OutlawError"]
+- ["Sf", "ValueType"]
+- ["Sf", "deinit"]
+- !private ["Sf", "init"]
+- !private ["Sf", "type"]
+- ["Sf", "value"]
+- !private ["s13FloatingPointP", "OutlawError"]
+- ["s13FloatingPointP", "ValueType"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s13FloatingPointP", "type"]
+- ["s13FloatingPointP", "value"]
+- !private ["s8HashableP", "OutlawError"]
+- ["s8HashableP", "ValueType"]
+- !private ["s8HashableP", "floatValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "type"]
+- ["s8HashableP", "value"]
+- !private ["s25LosslessStringConvertibleP", "OutlawError"]
+- ["s25LosslessStringConvertibleP", "ValueType"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "type"]
+- ["s25LosslessStringConvertibleP", "value"]
+- !private ["So8NSCodingP", "floatValue"]
+- !private ["So9NSCopyingP", "floatValue"]
+- !private ["So8NSNumberC", "floatValue"]
+- !private ["So8NSObjectC", "floatValue"]
+- !private ["So16NSObjectProtocolP", "floatValue"]
+- !private ["So14NSSecureCodingP", "floatValue"]
+- !private ["So7NSValueC", "floatValue"]
+- !private ["s7NumericP", "OutlawError"]
+- ["s7NumericP", "ValueType"]
+- !private ["s7NumericP", "init"]
+- !private ["s7NumericP", "type"]
+- ["s7NumericP", "value"]
+- !private ["6Outlaw0A5ErrorO", "deinit"]
+- !private ["6Outlaw0A5ErrorO", "typeMismatch"]
+- !private ["s13SignedNumericP", "OutlawError"]
+- ["s13SignedNumericP", "ValueType"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "type"]
+- ["s13SignedNumericP", "value"]
+- !private ["s10StrideableP", "OutlawError"]
+- ["s10StrideableP", "ValueType"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "type"]
+- ["s10StrideableP", "value"]
+- !private ["6Outlaw5ValueP", "OutlawError"]
+- ["6Outlaw5ValueP", "ValueType"]
+- !private ["6Outlaw5ValueP", "init"]
+- !private ["6Outlaw5ValueP", "type"]
+- ["6Outlaw5ValueP", "value"]
+- ["6Outlaw5ValueP", ""]
+- !private ["s15_CVarArgAlignedP", "OutlawError"]
+- ["s15_CVarArgAlignedP", "ValueType"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "type"]
+- ["s15_CVarArgAlignedP", "value"]
+- !private ["s22_CVarArgPassedAsDoubleP", "OutlawError"]
+- ["s22_CVarArgPassedAsDoubleP", "ValueType"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "type"]
+- ["s22_CVarArgPassedAsDoubleP", "value"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "OutlawError"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "ValueType"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "type"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "value"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "OutlawError"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "ValueType"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "type"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "floatValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "floatValue"]
+- !private ["s21_ObjectiveCBridgeableP", "OutlawError"]
+- ["s21_ObjectiveCBridgeableP", "ValueType"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "type"]
+- ["s21_ObjectiveCBridgeableP", "value"]
+- !private ["s11_StrideableP", "OutlawError"]
+- ["s11_StrideableP", "ValueType"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s11_StrideableP", "type"]
+- ["s11_StrideableP", "value"]
+depends-nominal:
+- "s19BinaryFloatingPointP"
+- "s7CVarArgP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "Sd"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "Sf"
+- "s13FloatingPointP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSNumberC"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- "s7NumericP"
+- !private "6Outlaw0A5ErrorO"
+- "s13SignedNumericP"
+- "s10StrideableP"
+- "6Outlaw5ValueP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Target Support Files/Outlaw/Outlaw-umbrella.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Pods.build/Debug-iphonesimulator/Outlaw.build/unextended-module.modulemap"
+interface-hash: "8867c2e3c50f11c80b054272f274bcb2"

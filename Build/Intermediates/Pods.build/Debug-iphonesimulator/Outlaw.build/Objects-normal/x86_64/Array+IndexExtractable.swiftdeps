@@ -1,0 +1,265 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "Sa"
+- "So7NSArrayC"
+provides-member:
+- ["Sa", ""]
+- ["So7NSArrayC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "Array"
+- "Bool"
+- "CastingPrecedence"
+- "Index"
+- "IndexExtractable"
+- "NSArray"
+- "Outlaw"
+depends-member:
+- !private ["Sa", "Index"]
+- ["Sa", "Outlaw"]
+- ["Sa", "any"]
+- ["Sa", "count"]
+- ["Sa", "deinit"]
+- ["Sa", "isEmpty"]
+- ["Sa", "optionalAny"]
+- !private ["Sa", "subscript"]
+- ["s23BidirectionalCollectionP", "any"]
+- ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "isEmpty"]
+- ["s23BidirectionalCollectionP", "optionalAny"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- ["s7CVarArgP", "any"]
+- ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "isEmpty"]
+- ["s7CVarArgP", "optionalAny"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s10CollectionP", "any"]
+- ["s10CollectionP", "count"]
+- ["s10CollectionP", "isEmpty"]
+- ["s10CollectionP", "optionalAny"]
+- !private ["s10CollectionP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "any"]
+- ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- ["s28CustomDebugStringConvertibleP", "optionalAny"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s17CustomReflectableP", "any"]
+- ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "isEmpty"]
+- ["s17CustomReflectableP", "optionalAny"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "any"]
+- ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "isEmpty"]
+- ["s23CustomStringConvertibleP", "optionalAny"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s9DecodableP", "any"]
+- ["s9DecodableP", "count"]
+- ["s9DecodableP", "isEmpty"]
+- ["s9DecodableP", "optionalAny"]
+- !private ["s9DecodableP", "subscript"]
+- ["s9EncodableP", "any"]
+- ["s9EncodableP", "count"]
+- ["s9EncodableP", "isEmpty"]
+- ["s9EncodableP", "optionalAny"]
+- !private ["s9EncodableP", "subscript"]
+- ["s9EquatableP", "any"]
+- ["s9EquatableP", "count"]
+- ["s9EquatableP", "isEmpty"]
+- ["s9EquatableP", "optionalAny"]
+- !private ["s9EquatableP", "subscript"]
+- ["s25ExpressibleByArrayLiteralP", "any"]
+- ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- ["s25ExpressibleByArrayLiteralP", "optionalAny"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s8HashableP", "any"]
+- ["s8HashableP", "count"]
+- ["s8HashableP", "isEmpty"]
+- ["s8HashableP", "optionalAny"]
+- !private ["s8HashableP", "subscript"]
+- !private ["6Outlaw5IndexP", "outlawIndex"]
+- ["6Outlaw16IndexExtractableP", "any"]
+- ["6Outlaw16IndexExtractableP", "count"]
+- ["6Outlaw16IndexExtractableP", "isEmpty"]
+- ["6Outlaw16IndexExtractableP", "optionalAny"]
+- !private ["6Outlaw16IndexExtractableP", "subscript"]
+- ["6Outlaw16IndexExtractableP", ""]
+- ["6Outlaw14JSONCollectionP", "any"]
+- ["6Outlaw14JSONCollectionP", "count"]
+- ["6Outlaw14JSONCollectionP", "isEmpty"]
+- ["6Outlaw14JSONCollectionP", "optionalAny"]
+- !private ["6Outlaw14JSONCollectionP", "subscript"]
+- ["s17MutableCollectionP", "any"]
+- ["s17MutableCollectionP", "count"]
+- ["s17MutableCollectionP", "isEmpty"]
+- ["s17MutableCollectionP", "optionalAny"]
+- !private ["s17MutableCollectionP", "subscript"]
+- ["So7NSArrayC", "Bool"]
+- ["So7NSArrayC", "Outlaw"]
+- ["So7NSArrayC", "any"]
+- ["So7NSArrayC", "count"]
+- ["So7NSArrayC", "deinit"]
+- ["So7NSArrayC", "isEmpty"]
+- ["So7NSArrayC", "optionalAny"]
+- !private ["So7NSArrayC", "subscript"]
+- ["So8NSCodingP", "any"]
+- ["So8NSCodingP", "count"]
+- ["So8NSCodingP", "isEmpty"]
+- ["So8NSCodingP", "optionalAny"]
+- !private ["So8NSCodingP", "subscript"]
+- ["So9NSCopyingP", "any"]
+- ["So9NSCopyingP", "count"]
+- ["So9NSCopyingP", "isEmpty"]
+- ["So9NSCopyingP", "optionalAny"]
+- !private ["So9NSCopyingP", "subscript"]
+- ["So17NSFastEnumerationP", "any"]
+- ["So17NSFastEnumerationP", "count"]
+- ["So17NSFastEnumerationP", "isEmpty"]
+- ["So17NSFastEnumerationP", "optionalAny"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- ["So16NSMutableCopyingP", "any"]
+- ["So16NSMutableCopyingP", "count"]
+- ["So16NSMutableCopyingP", "isEmpty"]
+- ["So16NSMutableCopyingP", "optionalAny"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Outlaw"]
+- ["So8NSObjectC", "any"]
+- ["So8NSObjectC", "count"]
+- ["So8NSObjectC", "isEmpty"]
+- ["So8NSObjectC", "optionalAny"]
+- !private ["So8NSObjectC", "subscript"]
+- ["So16NSObjectProtocolP", "any"]
+- ["So16NSObjectProtocolP", "count"]
+- ["So16NSObjectProtocolP", "isEmpty"]
+- ["So16NSObjectProtocolP", "optionalAny"]
+- !private ["So16NSObjectProtocolP", "subscript"]
+- ["So14NSSecureCodingP", "any"]
+- ["So14NSSecureCodingP", "count"]
+- ["So14NSSecureCodingP", "isEmpty"]
+- ["So14NSSecureCodingP", "optionalAny"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- ["s22RandomAccessCollectionP", "any"]
+- ["s22RandomAccessCollectionP", "count"]
+- ["s22RandomAccessCollectionP", "isEmpty"]
+- ["s22RandomAccessCollectionP", "optionalAny"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- ["s26RangeReplaceableCollectionP", "any"]
+- ["s26RangeReplaceableCollectionP", "count"]
+- ["s26RangeReplaceableCollectionP", "isEmpty"]
+- ["s26RangeReplaceableCollectionP", "optionalAny"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- ["s8SequenceP", "any"]
+- ["s8SequenceP", "count"]
+- ["s8SequenceP", "isEmpty"]
+- ["s8SequenceP", "optionalAny"]
+- !private ["s8SequenceP", "subscript"]
+- ["s14_ArrayProtocolP", "any"]
+- ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "isEmpty"]
+- ["s14_ArrayProtocolP", "optionalAny"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- ["s23_BidirectionalIndexableP", "any"]
+- ["s23_BidirectionalIndexableP", "count"]
+- ["s23_BidirectionalIndexableP", "isEmpty"]
+- ["s23_BidirectionalIndexableP", "optionalAny"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- ["s24_DestructorSafeContainerP", "any"]
+- ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "isEmpty"]
+- ["s24_DestructorSafeContainerP", "optionalAny"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- ["s10_IndexableP", "any"]
+- ["s10_IndexableP", "count"]
+- ["s10_IndexableP", "isEmpty"]
+- ["s10_IndexableP", "optionalAny"]
+- !private ["s10_IndexableP", "subscript"]
+- ["s14_IndexableBaseP", "any"]
+- ["s14_IndexableBaseP", "count"]
+- ["s14_IndexableBaseP", "isEmpty"]
+- ["s14_IndexableBaseP", "optionalAny"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "any"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "optionalAny"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- ["s17_MutableIndexableP", "any"]
+- ["s17_MutableIndexableP", "count"]
+- ["s17_MutableIndexableP", "isEmpty"]
+- ["s17_MutableIndexableP", "optionalAny"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", "any"]
+- ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- ["s21_ObjectiveCBridgeableP", "optionalAny"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s22_RandomAccessIndexableP", "any"]
+- ["s22_RandomAccessIndexableP", "count"]
+- ["s22_RandomAccessIndexableP", "isEmpty"]
+- ["s22_RandomAccessIndexableP", "optionalAny"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- ["s26_RangeReplaceableIndexableP", "any"]
+- ["s26_RangeReplaceableIndexableP", "count"]
+- ["s26_RangeReplaceableIndexableP", "isEmpty"]
+- ["s26_RangeReplaceableIndexableP", "optionalAny"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- "s8HashableP"
+- !private "6Outlaw5IndexP"
+- "6Outlaw16IndexExtractableP"
+- "6Outlaw14JSONCollectionP"
+- "s17MutableCollectionP"
+- "So7NSArrayC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So17NSFastEnumerationP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- "s24_DestructorSafeContainerP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Target Support Files/Outlaw/Outlaw-umbrella.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Pods.build/Debug-iphonesimulator/Outlaw.build/unextended-module.modulemap"
+interface-hash: "fce61caac31db4dfa70969838977be1a"

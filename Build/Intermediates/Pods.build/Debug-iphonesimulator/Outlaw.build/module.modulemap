@@ -1,0 +1,11 @@
+framework module Outlaw {
+  umbrella header "Outlaw-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Outlaw.Swift {
+    header "Outlaw-Swift.h"
+    requires objc
+}

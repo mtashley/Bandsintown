@@ -1,0 +1,396 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ArtistTableViewCell"
+- "ArtistTableViewCellDelegate"
+provides-nominal:
+- "11Bandsintown19ArtistTableViewCellC"
+- "11Bandsintown27ArtistTableViewCellDelegateP"
+provides-member:
+- ["11Bandsintown19ArtistTableViewCellC", ""]
+- ["11Bandsintown27ArtistTableViewCellDelegateP", ""]
+provides-dynamic-lookup:
+- "artistImage"
+- "artistName"
+- "favoriteButton"
+- "handleTappedFavoriteButton"
+depends-top-level:
+- "ArtistTableViewCell"
+- "ArtistTableViewCellDelegate"
+- "Int"
+- !private "StringLiteralType"
+- "UIButton"
+- !private "UIControlState"
+- "UIImageView"
+- "UILabel"
+- "UITableViewCell"
+- !private "UnicodeScalarType"
+depends-member:
+- ["11Bandsintown19ArtistTableViewCellC", "ArtistTableViewCellDelegate"]
+- ["11Bandsintown19ArtistTableViewCellC", "Int"]
+- ["11Bandsintown19ArtistTableViewCellC", "UIButton"]
+- !private ["11Bandsintown19ArtistTableViewCellC", "UIControlState"]
+- ["11Bandsintown19ArtistTableViewCellC", "UIImageView"]
+- ["11Bandsintown19ArtistTableViewCellC", "UILabel"]
+- ["11Bandsintown19ArtistTableViewCellC", "artistImage"]
+- ["11Bandsintown19ArtistTableViewCellC", "artistName"]
+- ["11Bandsintown19ArtistTableViewCellC", "deinit"]
+- ["11Bandsintown19ArtistTableViewCellC", "delegate"]
+- ["11Bandsintown19ArtistTableViewCellC", "favoriteButton"]
+- ["11Bandsintown19ArtistTableViewCellC", "handleTappedFavoriteButton"]
+- ["11Bandsintown19ArtistTableViewCellC", "init"]
+- ["11Bandsintown19ArtistTableViewCellC", "row"]
+- ["11Bandsintown19ArtistTableViewCellC", "toggleFavoriteOff"]
+- ["11Bandsintown19ArtistTableViewCellC", "toggleFavoriteOn"]
+- ["11Bandsintown27ArtistTableViewCellDelegateP", "ArtistTableViewCell"]
+- ["11Bandsintown27ArtistTableViewCellDelegateP", "didSelectFavoriteButton"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CALayerDelegateP", "UIControlState"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "favoriteButton"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "setTitle"]
+- ["So15CALayerDelegateP", ""]
+- !private ["s7CVarArgP", "UIControlState"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "favoriteButton"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "setTitle"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "UIControlState"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "favoriteButton"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "setTitle"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "UIControlState"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "favoriteButton"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setTitle"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "UIControlState"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "favoriteButton"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "normal"]
+- !private ["s9EquatableP", "setTitle"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "UIControlState"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "favoriteButton"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "setTitle"]
+- ["s8HashableP", ""]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["10Kingfisher0A10CompatibleP", "init"]
+- !private ["10Kingfisher0A10CompatibleP", "setTitle"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "UIControlState"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "favoriteButton"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "setTitle"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "ArtistTableViewCellDelegate"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "UIButton"]
+- !private ["So8NSObjectC", "UIControlState"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "artistImage"]
+- ["So8NSObjectC", "artistName"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "favoriteButton"]
+- ["So8NSObjectC", "handleTappedFavoriteButton"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "row"]
+- !private ["So8NSObjectC", "setTitle"]
+- ["So8NSObjectC", "toggleFavoriteOff"]
+- ["So8NSObjectC", "toggleFavoriteOn"]
+- !private ["So16NSObjectProtocolP", "UIControlState"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "favoriteButton"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "setTitle"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s9OptionSetP", "normal"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "normal"]
+- !private ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "normal"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitle"]
+- !private ["So29UIAccessibilityIdentificationP", "UIControlState"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "favoriteButton"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "setTitle"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "UIControlState"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "favoriteButton"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "setTitle"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "UIControlState"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "favoriteButton"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "setTitle"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So8UIButtonC", "setTitle"]
+- !private ["So9UIControlC", "setTitle"]
+- !private ["SC14UIControlStateV", "normal"]
+- !private ["So17UICoordinateSpaceP", "UIControlState"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "favoriteButton"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "setTitle"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "UIControlState"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "favoriteButton"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "setTitle"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "UIControlState"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "favoriteButton"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "setTitle"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "UIControlState"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "favoriteButton"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "setTitle"]
+- ["So11UIFocusItemP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "UIControlState"]
+- !private ["So27UIGestureRecognizerDelegateP", "delegate"]
+- !private ["So27UIGestureRecognizerDelegateP", "favoriteButton"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "UIControlState"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "favoriteButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "setTitle"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "ArtistTableViewCellDelegate"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "UIButton"]
+- !private ["So11UIResponderC", "UIControlState"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "artistImage"]
+- ["So11UIResponderC", "artistName"]
+- ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "favoriteButton"]
+- ["So11UIResponderC", "handleTappedFavoriteButton"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "row"]
+- !private ["So11UIResponderC", "setTitle"]
+- ["So11UIResponderC", "toggleFavoriteOff"]
+- ["So11UIResponderC", "toggleFavoriteOn"]
+- !private ["So30UIResponderStandardEditActionsP", "UIControlState"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "favoriteButton"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "setTitle"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setTitle"]
+- ["So15UITableViewCellC", "ArtistTableViewCellDelegate"]
+- ["So15UITableViewCellC", "Int"]
+- ["So15UITableViewCellC", "UIButton"]
+- !private ["So15UITableViewCellC", "UIControlState"]
+- ["So15UITableViewCellC", "UIImageView"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", "artistImage"]
+- ["So15UITableViewCellC", "artistName"]
+- ["So15UITableViewCellC", "delegate"]
+- ["So15UITableViewCellC", "favoriteButton"]
+- ["So15UITableViewCellC", "handleTappedFavoriteButton"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "row"]
+- ["So15UITableViewCellC", "toggleFavoriteOff"]
+- ["So15UITableViewCellC", "toggleFavoriteOn"]
+- ["So15UITableViewCellC", ""]
+- !private ["So18UITraitEnvironmentP", "UIControlState"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "favoriteButton"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "setTitle"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "ArtistTableViewCellDelegate"]
+- ["So6UIViewC", "Int"]
+- ["So6UIViewC", "UIButton"]
+- !private ["So6UIViewC", "UIControlState"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "artistImage"]
+- ["So6UIViewC", "artistName"]
+- ["So6UIViewC", "delegate"]
+- ["So6UIViewC", "favoriteButton"]
+- ["So6UIViewC", "handleTappedFavoriteButton"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "row"]
+- !private ["So6UIViewC", "setTitle"]
+- ["So6UIViewC", "toggleFavoriteOff"]
+- ["So6UIViewC", "toggleFavoriteOn"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIControlState"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "favoriteButton"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setTitle"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIControlState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "favoriteButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setTitle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "11Bandsintown19ArtistTableViewCellC"
+- "11Bandsintown27ArtistTableViewCellDelegateP"
+- !private "s23BidirectionalCollectionP"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "10Kingfisher0A10CompatibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s9OptionSetP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So9UIControlC"
+- !private "SC14UIControlStateV"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So27UIGestureRecognizerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s23_BidirectionalIndexableP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Accelerate.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Accelerate.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Views/Objective-C/DetailVC.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Assets/Bandsintown-Bridging-Header.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+interface-hash: "a22b5efa4dd58f5663329c5ea3b63fd2"

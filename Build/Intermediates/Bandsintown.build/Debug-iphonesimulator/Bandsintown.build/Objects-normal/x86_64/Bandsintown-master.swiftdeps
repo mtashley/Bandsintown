@@ -1,0 +1,15 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "027027c32a3751119f6bc83abecd1cdc"
+build_time: [1508334359, 985721000]
+inputs:
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Assets/Utilities.swift": [1508330893, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Managers/DataManager.swift": [1508334359, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Managers/NetworkManager.swift": [1508330929, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Assets/Constants.swift": [1508333872, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Views/Swift/HomeVC.swift": [1508331448, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Managers/AppDelegate.swift": [1508326808, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Views/Swift/ArtistTableViewCell.swift": [1508330021, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Models/Artist.swift": [1508329884, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Bandsintown.build/Debug-iphonesimulator/Bandsintown.build/DerivedSources/CoreDataGenerated/Bandsintown/FavoriteArtist+CoreDataClass.swift": [1508311437, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Bandsintown.build/Debug-iphonesimulator/Bandsintown.build/DerivedSources/CoreDataGenerated/Bandsintown/FavoriteArtist+CoreDataProperties.swift": [1508311437, 0]
+  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Bandsintown.build/Debug-iphonesimulator/Bandsintown.build/DerivedSources/CoreDataGenerated/Bandsintown/Bandsintown+CoreDataModel.swift": [1508311437, 0]

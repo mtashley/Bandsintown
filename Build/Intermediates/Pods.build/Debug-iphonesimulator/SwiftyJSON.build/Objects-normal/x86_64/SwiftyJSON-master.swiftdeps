@@ -1,5 +1,5 @@
 version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
-options: "2d3849f97a618e9653bb30812996ddbb"
-build_time: [1508177022, 971088000]
+options: "34950bce5ee82527214e4944ea9113b8"
+build_time: [1508510650, 192151000]
 inputs:
-  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1508033968, 0]
+  "/Users/Ashley/Desktop/Bandsintown/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1508510594, 0]

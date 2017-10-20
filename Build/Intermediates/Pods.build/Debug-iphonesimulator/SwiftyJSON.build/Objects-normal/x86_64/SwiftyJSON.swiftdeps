@@ -3326,6 +3326,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/unextended-module.modulemap"
+- "/Users/Ashley/Desktop/Bandsintown/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+- "/Users/Ashley/Desktop/Bandsintown/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/unextended-module.modulemap"
 interface-hash: "d7572bd6c3c85ca639c296b57872c676"

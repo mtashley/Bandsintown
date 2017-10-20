@@ -16,7 +16,7 @@ class ArtistTableViewCell: UITableViewCell {
 
     weak var delegate: ArtistTableViewCellDelegate?
     
-    var row: Int = 0
+    var indexPath: IndexPath?
 
     @IBAction func handleTappedFavoriteButton(_ sender: Any) {
         delegate?.didSelectFavoriteButton(in: self)

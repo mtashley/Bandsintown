@@ -268,8 +268,8 @@ SWIFT_CLASS_NAMED("FavoriteArtist")
 @class UIStoryboardSegue;
 @class NSBundle;
 
-SWIFT_CLASS("_TtC11Bandsintown6HomeVC")
-@interface HomeVC : UIViewController
+SWIFT_CLASS("_TtC11Bandsintown18HomeViewController")
+@interface HomeViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified homeTable;
 @property (nonatomic, weak) IBOutlet UISegmentedControl * _Null_unspecified segmentedControl;
 @property (nonatomic, weak) IBOutlet UISearchBar * _Null_unspecified searchBar;
@@ -282,19 +282,19 @@ SWIFT_CLASS("_TtC11Bandsintown6HomeVC")
 @end
 
 
-@interface HomeVC (SWIFT_EXTENSION(Bandsintown)) <DataManagerDelegate>
+@interface HomeViewController (SWIFT_EXTENSION(Bandsintown)) <DataManagerDelegate>
 - (void)reloadData;
 @end
 
 
 
 
-@interface HomeVC (SWIFT_EXTENSION(Bandsintown)) <UISearchBarDelegate>
+@interface HomeViewController (SWIFT_EXTENSION(Bandsintown)) <UISearchBarDelegate>
 - (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
 @end
 
 
-@interface HomeVC (SWIFT_EXTENSION(Bandsintown)) <UITableViewDataSource, UITableViewDelegate>
+@interface HomeViewController (SWIFT_EXTENSION(Bandsintown)) <UITableViewDataSource, UITableViewDelegate>
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailVC : UIViewController
+@interface DetailViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIImageView *img_image;
 

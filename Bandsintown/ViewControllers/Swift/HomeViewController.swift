@@ -8,14 +8,14 @@
 import UIKit
 import Kingfisher
 
-class HomeVC: UIViewController {
+class HomeViewController: UIViewController {
     
     @IBOutlet weak var homeTable: UITableView!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var searchBar: UISearchBar!
     
-    let dm = DataManager.sharedInstance
-    let nm = NetworkManager.sharedInstance
+    private let dm = DataManager.sharedInstance
+    private let nm = NetworkManager.sharedInstance
     
     private var searchBarHolder: UISearchBar!
     private var viewState: ViewState = .VS_Artists
@@ -63,7 +63,7 @@ class HomeVC: UIViewController {
     }
 }
 
-extension HomeVC : UITableViewDataSource, UITableViewDelegate {
+extension HomeViewController : UITableViewDataSource, UITableViewDelegate {
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -82,15 +82,15 @@ extension HomeVC : UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        let artist : Artist = dm.dataSource(viewState)[indexPath.row]
-        configureArtistCell(cell as! ArtistTableViewCell, artist: artist, row: indexPath.row)
+        configureArtistCell(cell as! ArtistTableViewCell, at: indexPath)
     }
     
     // Helper Function
-    func configureArtistCell(_ cell: ArtistTableViewCell, artist: Artist, row: Int) {
-
+    func configureArtistCell(_ cell: ArtistTableViewCell, at indexPath: IndexPath) {
+        
+        let artist = dm.fetchArtist(at: indexPath, in: viewState)
         cell.delegate = self
-        cell.row = row
+        cell.indexPath = indexPath
         cell.artistName.text = artist.name
         dm.isFavorited(artist) ? cell.toggleFavoriteOn() : cell.toggleFavoriteOff()
         
@@ -99,22 +99,25 @@ extension HomeVC : UITableViewDataSource, UITableViewDelegate {
     }
 }
 
-extension HomeVC : UISearchBarDelegate {
+extension HomeViewController : UISearchBarDelegate {
 
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        nm.requestArtists(from: searchText)
+    
+        if !searchText.isEmpty {
+            nm.requestArtists(from: searchText)
+        }
     }
 }
 
-extension HomeVC : ArtistTableViewCellDelegate {
+extension HomeViewController : ArtistTableViewCellDelegate {
     
     func didSelectFavoriteButton(in cell: ArtistTableViewCell) {
-        let artist: Artist = dm.dataSource(viewState)[cell.row]
+        let artist = dm.fetchArtist(at: cell.indexPath!, in: viewState)
         dm.toggleFavorite(artist)
     }
 }
 
-extension HomeVC : DataManagerDelegate {
+extension HomeViewController : DataManagerDelegate {
     
     func reloadData() {
         self.homeTable.reloadData()

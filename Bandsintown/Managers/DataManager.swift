@@ -35,6 +35,10 @@ import Kingfisher
         return (viewState == .VS_Artists) ? dataSourceSearch : dataSourceFavorites
     }
     
+    func fetchArtist(at indexPath: IndexPath, in viewState: ViewState) -> Artist {
+        return dataSource(viewState)[indexPath.row]
+    }
+    
     // Handle JSON data fetched from the API.
     func loadArtistDetails(_ object: JSON) {
         
@@ -43,7 +47,7 @@ import Kingfisher
         
         // Allow Kingfisher (Swift) to load cached images into Objective-C class (DetailVC).
         let url = URL(string: artist.image_url)
-        (delegate as! DetailVC).img_image.kf.setImage(with: url)
+        (delegate as! DetailViewController).img_image.kf.setImage(with: url)
     }
     
     func loadSearchResults(_ object: JSON) {

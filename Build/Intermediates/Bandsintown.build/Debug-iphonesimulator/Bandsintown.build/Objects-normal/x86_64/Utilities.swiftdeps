@@ -31,8 +31,9 @@ depends-member:
 - !private ["11Bandsintown9ConstantsV", "BASE_URL_ARTIST_SEARCH"]
 - !private ["11Bandsintown9ConstantsV", "BASE_URL_IMAGE_LARGE"]
 - !private ["11Bandsintown9ConstantsV", "DEFAULT_IMG_TYPE"]
-- !private ["s28CustomDebugStringConvertibleP", "RT_ArtistDetail"]
-- !private ["s28CustomDebugStringConvertibleP", "RT_ArtistSearch"]
+- !private ["s28CustomDebugStringConvertibleP", "RT_ARTIST_DETAIL"]
+- !private ["s28CustomDebugStringConvertibleP", "RT_ARTIST_SEARCH"]
+- !private ["s28CustomDebugStringConvertibleP", "RT_IMAGE_LARGE"]
 - !private ["s28CustomDebugStringConvertibleP", "RT_IMAGE_THUMB"]
 - !private ["s28CustomDebugStringConvertibleP", "addingPercentEncoding"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
@@ -40,8 +41,9 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "addingPercentEncoding"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
-- !private ["s17CustomReflectableP", "RT_ArtistDetail"]
-- !private ["s17CustomReflectableP", "RT_ArtistSearch"]
+- !private ["s17CustomReflectableP", "RT_ARTIST_DETAIL"]
+- !private ["s17CustomReflectableP", "RT_ARTIST_SEARCH"]
+- !private ["s17CustomReflectableP", "RT_IMAGE_LARGE"]
 - !private ["s17CustomReflectableP", "RT_IMAGE_THUMB"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "addingPercentEncoding"]
@@ -50,22 +52,25 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "addingPercentEncoding"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "urlQueryAllowed"]
-- !private ["s9DecodableP", "RT_ArtistDetail"]
-- !private ["s9DecodableP", "RT_ArtistSearch"]
+- !private ["s9DecodableP", "RT_ARTIST_DETAIL"]
+- !private ["s9DecodableP", "RT_ARTIST_SEARCH"]
+- !private ["s9DecodableP", "RT_IMAGE_LARGE"]
 - !private ["s9DecodableP", "RT_IMAGE_THUMB"]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "addingPercentEncoding"]
 - !private ["s9DecodableP", "init"]
 - !private ["s9DecodableP", "urlQueryAllowed"]
-- !private ["s9EncodableP", "RT_ArtistDetail"]
-- !private ["s9EncodableP", "RT_ArtistSearch"]
+- !private ["s9EncodableP", "RT_ARTIST_DETAIL"]
+- !private ["s9EncodableP", "RT_ARTIST_SEARCH"]
+- !private ["s9EncodableP", "RT_IMAGE_LARGE"]
 - !private ["s9EncodableP", "RT_IMAGE_THUMB"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "addingPercentEncoding"]
 - !private ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "urlQueryAllowed"]
-- !private ["s9EquatableP", "RT_ArtistDetail"]
-- !private ["s9EquatableP", "RT_ArtistSearch"]
+- !private ["s9EquatableP", "RT_ARTIST_DETAIL"]
+- !private ["s9EquatableP", "RT_ARTIST_SEARCH"]
+- !private ["s9EquatableP", "RT_IMAGE_LARGE"]
 - !private ["s9EquatableP", "RT_IMAGE_THUMB"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "addingPercentEncoding"]
@@ -75,15 +80,17 @@ depends-member:
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s23ExpressibleByNilLiteralP", "RT_ArtistDetail"]
-- !private ["s23ExpressibleByNilLiteralP", "RT_ArtistSearch"]
+- !private ["s23ExpressibleByNilLiteralP", "RT_ARTIST_DETAIL"]
+- !private ["s23ExpressibleByNilLiteralP", "RT_ARTIST_SEARCH"]
+- !private ["s23ExpressibleByNilLiteralP", "RT_IMAGE_LARGE"]
 - !private ["s23ExpressibleByNilLiteralP", "RT_IMAGE_THUMB"]
 - !private ["s26ExpressibleByStringLiteralP", "addingPercentEncoding"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "addingPercentEncoding"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["s8HashableP", "RT_ArtistDetail"]
-- !private ["s8HashableP", "RT_ArtistSearch"]
+- !private ["s8HashableP", "RT_ARTIST_DETAIL"]
+- !private ["s8HashableP", "RT_ARTIST_SEARCH"]
+- !private ["s8HashableP", "RT_IMAGE_LARGE"]
 - !private ["s8HashableP", "RT_IMAGE_THUMB"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "addingPercentEncoding"]
@@ -115,14 +122,16 @@ depends-member:
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So8NSStringC", "addingPercentEncoding"]
 - !private ["So8NSStringC", "init"]
-- !private ["Sq", "RT_ArtistDetail"]
-- !private ["Sq", "RT_ArtistSearch"]
+- !private ["Sq", "RT_ARTIST_DETAIL"]
+- !private ["Sq", "RT_ARTIST_SEARCH"]
+- !private ["Sq", "RT_IMAGE_LARGE"]
 - !private ["Sq", "RT_IMAGE_THUMB"]
 - !private ["s26RangeReplaceableCollectionP", "addingPercentEncoding"]
 - !private ["s26RangeReplaceableCollectionP", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "urlQueryAllowed"]
-- !private ["11Bandsintown11RequestTypeO", "RT_ArtistDetail"]
-- !private ["11Bandsintown11RequestTypeO", "RT_ArtistSearch"]
+- !private ["11Bandsintown11RequestTypeO", "RT_ARTIST_DETAIL"]
+- !private ["11Bandsintown11RequestTypeO", "RT_ARTIST_SEARCH"]
+- !private ["11Bandsintown11RequestTypeO", "RT_IMAGE_LARGE"]
 - !private ["11Bandsintown11RequestTypeO", "RT_IMAGE_THUMB"]
 - !private ["11Bandsintown11RequestTypeO", "deinit"]
 - !private ["s8SequenceP", "addingPercentEncoding"]
@@ -167,15 +176,17 @@ depends-member:
 - !private ["s14_IndexableBaseP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addingPercentEncoding"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
-- !private ["s21_ObjectiveCBridgeableP", "RT_ArtistDetail"]
-- !private ["s21_ObjectiveCBridgeableP", "RT_ArtistSearch"]
+- !private ["s21_ObjectiveCBridgeableP", "RT_ARTIST_DETAIL"]
+- !private ["s21_ObjectiveCBridgeableP", "RT_ARTIST_SEARCH"]
+- !private ["s21_ObjectiveCBridgeableP", "RT_IMAGE_LARGE"]
 - !private ["s21_ObjectiveCBridgeableP", "RT_IMAGE_THUMB"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "addingPercentEncoding"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "urlQueryAllowed"]
-- !private ["s26_OptionalNilComparisonTypeV", "RT_ArtistDetail"]
-- !private ["s26_OptionalNilComparisonTypeV", "RT_ArtistSearch"]
+- !private ["s26_OptionalNilComparisonTypeV", "RT_ARTIST_DETAIL"]
+- !private ["s26_OptionalNilComparisonTypeV", "RT_ARTIST_SEARCH"]
+- !private ["s26_OptionalNilComparisonTypeV", "RT_IMAGE_LARGE"]
 - !private ["s26_OptionalNilComparisonTypeV", "RT_IMAGE_THUMB"]
 - !private ["s26_RangeReplaceableIndexableP", "addingPercentEncoding"]
 - !private ["s26_RangeReplaceableIndexableP", "init"]
@@ -248,9 +259,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotesc"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
@@ -266,16 +277,16 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Views/Objective-C/DetailVC.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Assets/Bandsintown-Bridging-Header.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/Ashley/Desktop/Bandsintown/Bandsintown/Views/Objective-C/DetailVC.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/Ashley/Desktop/Bandsintown/Bandsintown/Assets/Bandsintown-Bridging-Header.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
 interface-hash: "4dcc991ac63a0fe73b63cb3a90c5038d"

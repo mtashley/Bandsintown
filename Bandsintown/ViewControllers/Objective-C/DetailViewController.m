@@ -6,11 +6,11 @@
 //  Copyright © 2017 mtashley. All rights reserved.
 //
 
-#import "DetailVC.h"
+#import "DetailViewController.h"
 #import "Bandsintown-Swift.h"
 #import <Kingfisher/KingFisher-Swift.h>
 
-@interface DetailVC() <DataManagerDelegate>
+@interface DetailViewController() <DataManagerDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *lbl_name;
 @property (weak, nonatomic) IBOutlet UILabel *lbl_tracker;
@@ -19,7 +19,7 @@
 
 @end
 
-@implementation DetailVC
+@implementation DetailViewController
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];

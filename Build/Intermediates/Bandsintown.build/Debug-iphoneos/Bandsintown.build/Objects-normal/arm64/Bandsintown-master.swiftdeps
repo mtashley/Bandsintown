@@ -1,15 +1,15 @@
 version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
-options: "60bd78653967deb2f59e6d78f2ed7a3b"
-build_time: [1508392378, 849581000]
+options: "e4e03536de8ee610e2845211129c0235"
+build_time: [1508512431, 648963000]
 inputs:
-  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Assets/Utilities.swift": [1508392149, 0]
-  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Managers/DataManager.swift": [1508392372, 0]
-  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Managers/NetworkManager.swift": [1508392378, 0]
-  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Assets/Constants.swift": [1508392145, 0]
-  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Views/Swift/HomeVC.swift": [1508331448, 0]
-  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Managers/AppDelegate.swift": [1508326808, 0]
-  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Views/Swift/ArtistTableViewCell.swift": [1508330021, 0]
-  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Models/Artist.swift": [1508392332, 0]
-  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Bandsintown.build/Debug-iphoneos/Bandsintown.build/DerivedSources/CoreDataGenerated/Bandsintown/FavoriteArtist+CoreDataClass.swift": [1508328031, 0]
-  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Bandsintown.build/Debug-iphoneos/Bandsintown.build/DerivedSources/CoreDataGenerated/Bandsintown/FavoriteArtist+CoreDataProperties.swift": [1508328031, 0]
-  "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Bandsintown.build/Debug-iphoneos/Bandsintown.build/DerivedSources/CoreDataGenerated/Bandsintown/Bandsintown+CoreDataModel.swift": [1508328031, 0]
+  "/Users/Ashley/Desktop/Bandsintown/Bandsintown/Assets/Utilities.swift": [1508510591, 0]
+  "/Users/Ashley/Desktop/Bandsintown/Bandsintown/Managers/DataManager.swift": [1508511873, 0]
+  "/Users/Ashley/Desktop/Bandsintown/Bandsintown/Managers/NetworkManager.swift": [1508510591, 0]
+  "/Users/Ashley/Desktop/Bandsintown/Bandsintown/Assets/Constants.swift": [1508510591, 0]
+  "/Users/Ashley/Desktop/Bandsintown/Bandsintown/ViewControllers/Swift/HomeViewController.swift": [1508512430, 0]
+  "/Users/Ashley/Desktop/Bandsintown/Bandsintown/Managers/AppDelegate.swift": [1508510591, 0]
+  "/Users/Ashley/Desktop/Bandsintown/Bandsintown/ViewControllers/Swift/ArtistTableViewCell.swift": [1508512017, 0]
+  "/Users/Ashley/Desktop/Bandsintown/Bandsintown/Models/Artist.swift": [1508510591, 0]
+  "/Users/Ashley/Desktop/Bandsintown/Build/Intermediates/Bandsintown.build/Debug-iphoneos/Bandsintown.build/DerivedSources/CoreDataGenerated/Bandsintown/FavoriteArtist+CoreDataClass.swift": [1508510970, 0]
+  "/Users/Ashley/Desktop/Bandsintown/Build/Intermediates/Bandsintown.build/Debug-iphoneos/Bandsintown.build/DerivedSources/CoreDataGenerated/Bandsintown/FavoriteArtist+CoreDataProperties.swift": [1508510970, 0]
+  "/Users/Ashley/Desktop/Bandsintown/Build/Intermediates/Bandsintown.build/Debug-iphoneos/Bandsintown.build/DerivedSources/CoreDataGenerated/Bandsintown/Bandsintown+CoreDataModel.swift": [1508510970, 0]

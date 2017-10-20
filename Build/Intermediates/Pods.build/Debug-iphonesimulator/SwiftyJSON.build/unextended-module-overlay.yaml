@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules'
+    'name': '/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/unextended-module.modulemap',
+      'external-contents': '/Users/Ashley/Desktop/Bandsintown/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/unextended-module.modulemap',
     }]
   }]
 }

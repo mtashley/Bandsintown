@@ -1,4 +1,4 @@
 dependencies: \
-  /Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Target\ Support\ Files/Kingfisher/Kingfisher-dummy.m \
-  /Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Build/Intermediates/Pods.build/Debug-iphoneos/Kingfisher.build/module.modulemap \
-  /Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Pods/Target\ Support\ Files/Kingfisher/Kingfisher-prefix.pch
+  /Users/Ashley/Desktop/Bandsintown/Pods/Target\ Support\ Files/Kingfisher/Kingfisher-dummy.m \
+  /Users/Ashley/Desktop/Bandsintown/Build/Intermediates/Pods.build/Debug-iphoneos/Kingfisher.build/module.modulemap \
+  /Users/Ashley/Desktop/Bandsintown/Pods/Target\ Support\ Files/Kingfisher/Kingfisher-prefix.pch

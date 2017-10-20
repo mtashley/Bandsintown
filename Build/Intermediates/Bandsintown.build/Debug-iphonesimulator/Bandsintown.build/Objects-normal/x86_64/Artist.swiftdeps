@@ -6,6 +6,7 @@ provides-nominal:
 provides-member:
 - ["11Bandsintown6ArtistC", ""]
 provides-dynamic-lookup:
+- "image_url"
 - "media_id"
 - "name"
 - "thumb_url"
@@ -24,6 +25,7 @@ depends-member:
 - ["11Bandsintown6ArtistC", "JSON"]
 - ["11Bandsintown6ArtistC", "String"]
 - ["11Bandsintown6ArtistC", "deinit"]
+- ["11Bandsintown6ArtistC", "image_url"]
 - ["11Bandsintown6ArtistC", "init"]
 - ["11Bandsintown6ArtistC", "media_id"]
 - ["11Bandsintown6ArtistC", "name"]
@@ -31,6 +33,7 @@ depends-member:
 - ["11Bandsintown6ArtistC", "tracker_count"]
 - ["11Bandsintown6ArtistC", "upcoming_event_count"]
 - !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "image_url"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "media_id"]
 - !private ["s7CVarArgP", "name"]
@@ -46,6 +49,7 @@ depends-member:
 - !private ["s10ComparableP", "int"]
 - !private ["s10ComparableP", "string"]
 - !private ["s10ComparableP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "image_url"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "int"]
 - !private ["s28CustomDebugStringConvertibleP", "media_id"]
@@ -58,6 +62,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "image_url"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "int"]
 - !private ["s23CustomStringConvertibleP", "media_id"]
@@ -70,6 +75,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "init"]
 - !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "image_url"]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "int"]
 - !private ["s9EquatableP", "media_id"]
@@ -110,6 +116,7 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "int"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["s8HashableP", "image_url"]
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "media_id"]
 - !private ["s8HashableP", "name"]
@@ -132,6 +139,7 @@ depends-member:
 - ["So8NSObjectC", "Int"]
 - ["So8NSObjectC", "JSON"]
 - ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "image_url"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "media_id"]
 - ["So8NSObjectC", "name"]
@@ -139,6 +147,7 @@ depends-member:
 - ["So8NSObjectC", "tracker_count"]
 - ["So8NSObjectC", "upcoming_event_count"]
 - ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "image_url"]
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "media_id"]
 - !private ["So16NSObjectProtocolP", "name"]
@@ -179,6 +188,7 @@ depends-member:
 - !private ["s14_IndexableBaseP", "int"]
 - !private ["s14_IndexableBaseP", "string"]
 - !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image_url"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "media_id"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
@@ -254,9 +264,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotesc"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
@@ -272,16 +282,16 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Views/Objective-C/DetailVC.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Assets/Bandsintown-Bridging-Header.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
-interface-hash: "83f06c8e48349021185e66f9a21097e1"
+- "/Users/Ashley/Desktop/Bandsintown/Bandsintown/Views/Objective-C/DetailVC.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/Ashley/Desktop/Bandsintown/Bandsintown/Assets/Bandsintown-Bridging-Header.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+interface-hash: "cc8479110ff8af4af64c89ddd0ad70d4"

@@ -16,7 +16,7 @@ provides-dynamic-lookup:
 depends-top-level:
 - "ArtistTableViewCell"
 - "ArtistTableViewCellDelegate"
-- "Int"
+- "IndexPath"
 - !private "StringLiteralType"
 - "UIButton"
 - !private "UIControlState"
@@ -26,7 +26,7 @@ depends-top-level:
 - !private "UnicodeScalarType"
 depends-member:
 - ["11Bandsintown19ArtistTableViewCellC", "ArtistTableViewCellDelegate"]
-- ["11Bandsintown19ArtistTableViewCellC", "Int"]
+- ["11Bandsintown19ArtistTableViewCellC", "IndexPath"]
 - ["11Bandsintown19ArtistTableViewCellC", "UIButton"]
 - !private ["11Bandsintown19ArtistTableViewCellC", "UIControlState"]
 - ["11Bandsintown19ArtistTableViewCellC", "UIImageView"]
@@ -37,8 +37,8 @@ depends-member:
 - ["11Bandsintown19ArtistTableViewCellC", "delegate"]
 - ["11Bandsintown19ArtistTableViewCellC", "favoriteButton"]
 - ["11Bandsintown19ArtistTableViewCellC", "handleTappedFavoriteButton"]
+- ["11Bandsintown19ArtistTableViewCellC", "indexPath"]
 - ["11Bandsintown19ArtistTableViewCellC", "init"]
-- ["11Bandsintown19ArtistTableViewCellC", "row"]
 - ["11Bandsintown19ArtistTableViewCellC", "toggleFavoriteOff"]
 - ["11Bandsintown19ArtistTableViewCellC", "toggleFavoriteOn"]
 - ["11Bandsintown27ArtistTableViewCellDelegateP", "ArtistTableViewCell"]
@@ -107,7 +107,7 @@ depends-member:
 - !private ["So21NSItemProviderWritingP", "init"]
 - !private ["So16NSMutableCopyingP", "init"]
 - ["So8NSObjectC", "ArtistTableViewCellDelegate"]
-- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "IndexPath"]
 - ["So8NSObjectC", "UIButton"]
 - !private ["So8NSObjectC", "UIControlState"]
 - ["So8NSObjectC", "UIImageView"]
@@ -117,8 +117,8 @@ depends-member:
 - ["So8NSObjectC", "delegate"]
 - ["So8NSObjectC", "favoriteButton"]
 - ["So8NSObjectC", "handleTappedFavoriteButton"]
+- ["So8NSObjectC", "indexPath"]
 - ["So8NSObjectC", "init"]
-- ["So8NSObjectC", "row"]
 - !private ["So8NSObjectC", "setTitle"]
 - ["So8NSObjectC", "toggleFavoriteOff"]
 - ["So8NSObjectC", "toggleFavoriteOn"]
@@ -197,7 +197,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "setTitle"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So11UIResponderC", "ArtistTableViewCellDelegate"]
-- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "IndexPath"]
 - ["So11UIResponderC", "UIButton"]
 - !private ["So11UIResponderC", "UIControlState"]
 - ["So11UIResponderC", "UIImageView"]
@@ -207,8 +207,8 @@ depends-member:
 - ["So11UIResponderC", "delegate"]
 - ["So11UIResponderC", "favoriteButton"]
 - ["So11UIResponderC", "handleTappedFavoriteButton"]
+- ["So11UIResponderC", "indexPath"]
 - ["So11UIResponderC", "init"]
-- ["So11UIResponderC", "row"]
 - !private ["So11UIResponderC", "setTitle"]
 - ["So11UIResponderC", "toggleFavoriteOff"]
 - ["So11UIResponderC", "toggleFavoriteOn"]
@@ -220,7 +220,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So35UISpringLoadedInteractionSupportingP", "setTitle"]
 - ["So15UITableViewCellC", "ArtistTableViewCellDelegate"]
-- ["So15UITableViewCellC", "Int"]
+- ["So15UITableViewCellC", "IndexPath"]
 - ["So15UITableViewCellC", "UIButton"]
 - !private ["So15UITableViewCellC", "UIControlState"]
 - ["So15UITableViewCellC", "UIImageView"]
@@ -230,8 +230,8 @@ depends-member:
 - ["So15UITableViewCellC", "delegate"]
 - ["So15UITableViewCellC", "favoriteButton"]
 - ["So15UITableViewCellC", "handleTappedFavoriteButton"]
+- ["So15UITableViewCellC", "indexPath"]
 - ["So15UITableViewCellC", "init"]
-- ["So15UITableViewCellC", "row"]
 - ["So15UITableViewCellC", "toggleFavoriteOff"]
 - ["So15UITableViewCellC", "toggleFavoriteOn"]
 - ["So15UITableViewCellC", ""]
@@ -242,7 +242,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "setTitle"]
 - ["So18UITraitEnvironmentP", ""]
 - ["So6UIViewC", "ArtistTableViewCellDelegate"]
-- ["So6UIViewC", "Int"]
+- ["So6UIViewC", "IndexPath"]
 - ["So6UIViewC", "UIButton"]
 - !private ["So6UIViewC", "UIControlState"]
 - ["So6UIViewC", "UIImageView"]
@@ -252,8 +252,8 @@ depends-member:
 - ["So6UIViewC", "delegate"]
 - ["So6UIViewC", "favoriteButton"]
 - ["So6UIViewC", "handleTappedFavoriteButton"]
+- ["So6UIViewC", "indexPath"]
 - ["So6UIViewC", "init"]
-- ["So6UIViewC", "row"]
 - !private ["So6UIViewC", "setTitle"]
 - ["So6UIViewC", "toggleFavoriteOff"]
 - ["So6UIViewC", "toggleFavoriteOn"]
@@ -363,9 +363,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Accelerate.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64.swiftmodule"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
@@ -381,16 +381,16 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Views/Objective-C/DetailVC.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/Bandsintown/Assets/Bandsintown-Bridging-Header.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
-- "/Volumes/Element-Mac/_development/_ios/_training/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
-interface-hash: "a22b5efa4dd58f5663329c5ea3b63fd2"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/Ashley/Desktop/Bandsintown/Bandsintown/Assets/Bandsintown-Bridging-Header.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/Ashley/Desktop/Bandsintown/Bandsintown/ViewControllers/Objective-C/DetailViewController.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Ashley/Desktop/Bandsintown/I/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+interface-hash: "b0395442ca2130016174bf2c70f8e3b2"

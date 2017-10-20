@@ -9,6 +9,6 @@
 #ifndef Bandsintown_Bridging_Header_h
 #define Bandsintown_Bridging_Header_h
 
-#import "DetailVC.h"
+#import "DetailViewController.h"
 
 #endif /* Bandsintown_Bridging_Header_h */
